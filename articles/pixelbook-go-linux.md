@@ -7,9 +7,9 @@
 ## 让 ChromeOS 从 U 盘启动
 ChromeOS 想要把他换掉，开启 U 盘启动并引导到其它操作系统上，整个过程相当复杂。
 
-TODO：这部分要写重新，还需要一些图文
+TODO：这部分需要一些图文
 
-### 开启开发者模式
+### 进入开发者模式
 * 开机按组合键`esc`+`刷新/F3`进入 Recovery 界面。
 * 当看到“Please insert a recover USB stick”字样界面，组合键`ctrl`+`d`进行接触系统检查限制。
 * 当看到“To turn OS verification OFF, press ENTER”字样界面，按`enter`关闭系统验证。
@@ -92,14 +92,16 @@ XMODIFIERS=@im=fcitx
 ```
 * 重启
 
-接下来就可以通过输入法配置工具，来配置想要的输入法了图文
+接下来就可以通过输入法配置工具，来配置想要的输入法了。
 
-TODO：配置图文
+![Fcitx](../assets/pixelbook-go-linux/fcitx-01.png)
+
+![Fcitx](../assets/pixelbook-go-linux/fcitx-01.png)
 
 ### 模糊拼音
-fcitx-configtool -> addon -> Pinyin(Simple pinyin for fcitx)
+位置：fcitx-configtool -> addon -> Pinyin(Simple pinyin for fcitx)
 
-TODO：配图
+![Fcitx](../assets/pixelbook-go-linux/fcitx-03.png)
 
 ## 如何安装软件
 Manjaro 系统提供了两种安装软件方式：一个是通过 `pacman -S soft-name` 命令行的方式来安装；另外还提供了一个软件管理工具 `Add/Remove Software` 通过图形化界面来安装。具体按照自己的偏好来做选择，当然有一些软件如果没有发布到软件镜像源，那只能通过命令行方式来安装了。
@@ -107,11 +109,11 @@ Manjaro 系统提供了两种安装软件方式：一个是通过 `pacman -S sof
 ### 开启第三方 AUR（Arch User Repository）
 当然，软件管理工具默认情况下是不允许第三方软件源在里面查询到的，当我们开启第三方 AUR 后，我们可以搜索到更多的软件并安装：
 
-TODO：图文
+![Software](../assets/pixelbook-go-linux/software-01.png)
+
+![Software](../assets/pixelbook-go-linux/software-02.png)
 
 安装过程也很简单，用 Chrome 浏览器作一个例子：
-
-TODO：图文
 
 * 搜索 google-chrome
 * 选择，并点击安装
@@ -145,15 +147,20 @@ Linux 系统和是市面上常用的操作系统（Windows，MacOS）有所不�
 
 我们通过一些系统设置，可以让系统为自己发挥更大的效率。
 
-TODO：以下都需要一些截图
+TODO：以下都需要一些图片
 
 ### 键盘映射
-* Tweaks -> Addtional Layout Options -> Alt and Win behavior -> Ctrl is map to Alt, Alt to Win
+
+由于工作的时候使用的是 MacOS，在快捷键上调整成和 MacOS 的规范，这样两个操作系统可以顺畅的切换。
+
+* 位置：Tweaks -> Addtional Layout Options -> Alt and Win behavior -> Ctrl is map to Alt, Alt to Win
 
 ### 主题
-* Settings -> Appearance -> Style -> Light
+* 黑暗/白天主题切换
+  * 位置：Settings -> Appearance -> Style -> Light
+
 * Dash to Dock
-  * Extensions -> Dash to Dock -> Settings -> Appearance
+  * 位置：Extensions -> Dash to Dock -> Settings -> Appearance
 * Transparent Top Bar
   * https://extensions.gnome.org/extension/3960/transparent-top-bar-adjustable-transparency/
 
@@ -179,7 +186,7 @@ TODO：以下都需要一些截图
   * 改为：'Noto Sans Mono Reguar', 'monospace', monospace
 
 ### 远程文件夹访问
-* Files->Other Locations
+* 位置：Files->Other Locations
 
 ### 蓝牙启动开启
 
