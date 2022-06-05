@@ -1,5 +1,5 @@
 # 玩转 Pixelbook 之运行真正 Linux
-既然选择了与众不同的 Pixelbook，但是 ChromeOS 使用起来有那么蹩脚，那么在操作系统上作为“极客”的我也要把它换成与众不同的 Linux。
+既然选择了与众不同的 **Pixelbook Go**，而 ChromeOS 使用起来有那么蹩脚，那么在操作系统上作为“极客”的我也要把它换成与众不同的 Linux。
 
 ## 为什么要从 ChromeOS 接换到 Linux
 体验了 ChromeOS 后，个人感觉它为了能够丰富系统的生态，强硬的将 Android 和 Linux 容器塞如到 ChromeOS 系统中去，试图让 Android 的娱乐与 Linux 的生产力融入到 ChromeOS 系统，让更多的用户接纳它，但结果让原本基于 WebApp 的操作系统成了一个“四不像”。作为有技术洁癖的人来说，一套系统、一个解决方案才是最重要的，当然我可以选择刷黑苹果或者Windows系统，但是作为“极客”的我，还是需要体现出与众不同，既然在硬件上选择了一个小众的 Pixelbook，那么操作系统也需要与众不同，于是选择了将它刷成 Linux。
@@ -24,7 +24,7 @@ TODO：这部分需要一些图文
 
 根据这篇文章，我们可以简单的命令行就能完成整个操作：`cd; curl -LOk mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh`。
 
-但不幸的是，在开发者模式中，由于通过手机搭梯子 DNS 解析的原因，无法下载`mrchromebox.tech`域名下的文件，但这点小问题难不住“极客”，于是把文件通过浏览器下载下来后，放入用户目录运行，正要开心起来的时候，问题又来了`Error downloading one or more required files; cannot continue`。怎么办！“极客精神”驱使自己去看`firmware-util.sh`的源码，还是由于文件下载的问题。
+但不幸的是，在开发者模式中，由于通过手机搭梯子 DNS 解析的原因，无法下载`mrchromebox.tech`域名下的文件，但这点小问题难不住“极客”，于是把文件通过浏览器下载下来后，放入用户目录运行，正要开心起来的时候，问题又来了`Error downloading one or more required files; cannot continue`。怎么办！“极客精神”驱使自己去看`firmware-util.sh`的源码，源码就不解读了，具体解决方案如下：
 
 * 如果网络有问题（无法在 ChromeOS 上搭梯子的情况）的情况，做如下操作：
     * 手动下载：`firmware.sh`、`functions.sh`、`sources.sh`3个文件。
@@ -189,11 +189,18 @@ TODO：以下都需要一些图片
 * 位置：Files->Other Locations
 
 ### 蓝牙启动开启
+修改蓝牙配置文件：`sudo vim /etc/bluetooth/main.conf`，将`AutoEnable`开启就可以了：
+
+```
+# AutoEnable defines option to enable all controllers when they are found.
+# This includes adapters present on start as well as adapters that are plugged
+# in later on. Defaults to 'false'.
+AutoEnable=true
+```
 
 ## 待解决问题
 * 声音问题
 * 触控板
-
 
 
 以下是最终成品截图：
