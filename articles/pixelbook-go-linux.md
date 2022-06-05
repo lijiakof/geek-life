@@ -4,20 +4,35 @@
 ## 为什么要从 ChromeOS 接换到 Linux
 体验了 ChromeOS 后，个人感觉它为了能够丰富系统的生态，强硬的将 Android 和 Linux 容器塞如到 ChromeOS 系统中去，试图让 Android 的娱乐与 Linux 的生产力融入到 ChromeOS 系统，让更多的用户接纳它，但结果让原本基于 WebApp 的操作系统成了一个“四不像”。作为有技术洁癖的人来说，一套系统、一个解决方案才是最重要的，当然我可以选择刷黑苹果或者Windows系统，但是作为“极客”的我，还是需要体现出与众不同，既然在硬件上选择了一个小众的 Pixelbook，那么操作系统也需要与众不同，于是选择了将它刷成 Linux。
 
-## 开启 ChromeOS 开发者模式
+## 让 ChromeOS 从 U 盘启动
 ChromeOS 想要把他换掉，开启 U 盘启动并引导到其它操作系统上，整个过程相当复杂。
 
 TODO：这部分要写重新，还需要一些图文
 
-* 开机按住<ESC>+<REFRESH/F3>，进入recovery界面（Please insert a recover USB stick）
-* <CTRL>+<D>，解除限制
-* To turn OS verification OFF, press ENTER，按 ENTER
-* 等待，响声
-* 等待重启
-* Preparing system for Developer Mode
-* 重新激活进入系统
-* <CTRL>+<ALT>+<T> 进入 crosh
-* 输入 shell 进入shell命令
+### 开启开发者模式
+* 开机按组合键`esc`+`刷新/F3`进入 Recovery 界面。
+* 当看到“Please insert a recover USB stick”字样界面，组合键`ctrl`+`d`进行接触系统检查限制。
+* 当看到“To turn OS verification OFF, press ENTER”字样界面，按`enter`关闭系统验证。
+* 此刻等待，“嘟”的响声，后等待重启。
+* 进入到“Preparing system for Developer Mode”字样界面，等待系统进入开发者模式。
+* 系统重启，需要重新激活进入系统，这样就打开了开发者模式。
+* 进入系统后按组合键`ctrl`+`alt`+`t`，进入 crosh 模式。
+* 在命令行中，输入`shell`进入命令命令行模式。
+
+### 通过固件脚本让 ChromeOS 设备从 U 盘启动
+这个部分非常专业，由于 ChromeOS 设备的固件只认识 ChromeOS，所以重刷新的系统时必须打破这个限制，这个过程相当复杂，但这也挡不住“极客”的好奇心，牛人已经做好了相关脚本，可以让你直接在 ChromeOS 的开发者模式中运行，并让设备通过 U 盘启动非 ChromeOS 的系统，脚本链接：https://mrchromebox.tech/#fwscript。
+
+根据这篇文章，我们可以简单的命令行就能完成整个操作：`cd; curl -LOk mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh`。
+
+但不幸的是，在开发者模式中，由于通过手机搭梯子 DNS 解析的原因，无法下载`mrchromebox.tech`域名下的文件，但这点小问题难不住“极客”，于是把文件通过浏览器下载下来后，放入用户目录运行，正要开心起来的时候，问题又来了`Error downloading one or more required files; cannot continue`。怎么办！“极客精神”驱使自己去看`firmware-util.sh`的源码，还是由于文件下载的问题。
+
+* 如果网络有问题（无法在 ChromeOS 上搭梯子的情况）的情况，做如下操作：
+    * 手动下载：`firmware.sh`、`functions.sh`、`sources.sh`3个文件。
+    * 将这3个文件放入`/usr/local/bin`文件夹。
+    * 修改脚本，将下载文件过程注释掉。
+* 运行脚本，终于出现了正确的界面。
+* TODO：如何选择
+* 选择`r`重启，接下来就会从 U 盘读取你准备好的系统镜像。
 
 ## 刷机
 只要能够通过 U 盘启动，刷机过程还是比较顺畅的，我这里选择的 Linux 系统是最近比较流行的基于 Arch 架构的的 Manjaro，当然它的版本比较多，我直接选择了有现代化 UI 的 Gnome 版本。Manjaro 安装过程比较轻松简单：
