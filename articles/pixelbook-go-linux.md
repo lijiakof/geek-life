@@ -34,23 +34,25 @@ TODO：这部分要写重新，还需要一些图文
 * TODO：如何选择
 * 选择`r`重启，接下来就会从 U 盘读取你准备好的系统镜像。
 
-感谢这两个视频：
+非常感谢这两个视频的作者：
 * https://www.bilibili.com/video/av795919629/
 * https://www.youtube.com/watch?v=Nzp_fmG4QRA
 
 ## 刷机
 只要能够通过 U 盘启动，刷机过程还是比较顺畅的，我这里选择的 Linux 系统是最近比较流行的基于 Arch 架构的的 Manjaro，当然它的版本比较多，我直接选择了有现代化 UI 的 Gnome 版本。Manjaro 安装过程比较轻松简单：
-* 下载系统
-  * 下载地址：https://manjaro.org/download/
-  * 我选择的是 Gnome 版本
-* 制作镜像
-  * 我采用的是 balenaEtcher：https://www.balena.io/etcher/
-  * 安装好 balenaEtcher 后，插入 U 盘
-  * 选择镜像->选择 U 盘->Flash
-* 将制作好的启动盘，插入机器（TODO：需要和上面开启 Pixlebook 从 U 盘启动关联起来）
-* 机器会从 U 盘开始启动，一串代码闪过后进入安装界面
-* 选择默认项，开始各种设置：语言、时区等
-* 接下来就是无脑操作了，按照界面提示选择就行，整个安装过程比较快，大概10多分钟
+* 下载系统：
+  * 下载地址：https://manjaro.org/download/。
+  * 我选择的是 Gnome 版本。
+* 制作镜像：
+  * 我采用的是 balenaEtcher：https://www.balena.io/etcher/。
+  * 安装好 balenaEtcher 后，插入 U 盘。
+  * 选择镜像->选择 U 盘->Flash。
+* 将制作好的启动盘，插入机器（需要和上面开启 ChromeOS 从 U 盘启动关联起来）。
+* 机器会从 U 盘开始启动，一串代码闪过后进入安装界面。
+* 选择默认项，开始各种设置：语言、时区等。
+* 接下来就是无脑操作了，按照界面提示选择就行，整个安装过程比较快，大概10多分钟。
+
+
 
 ## 设置国内镜像源
 由于系统默认的是国外镜像源，国内安装软件访问国外网络比较慢，另外也有可能网络被墙，换成国内源安装软件更加方便：
