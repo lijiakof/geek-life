@@ -34,6 +34,10 @@ TODO：这部分要写重新，还需要一些图文
 * TODO：如何选择
 * 选择`r`重启，接下来就会从 U 盘读取你准备好的系统镜像。
 
+感谢这两个视频：
+* https://www.bilibili.com/video/av795919629/
+* https://www.youtube.com/watch?v=Nzp_fmG4QRA
+
 ## 刷机
 只要能够通过 U 盘启动，刷机过程还是比较顺畅的，我这里选择的 Linux 系统是最近比较流行的基于 Arch 架构的的 Manjaro，当然它的版本比较多，我直接选择了有现代化 UI 的 Gnome 版本。Manjaro 安装过程比较轻松简单：
 * 下载系统
