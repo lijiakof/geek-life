@@ -194,4 +194,8 @@ TODO：以下都需要一些图片
 * 声音问题
 * 触控板
 
+
+
+以下是最终成品截图：
+
 ![Manjaro](../assets/pixelbook-go-linux/manjaro-screenshot.png)
