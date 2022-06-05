@@ -1,6 +1,8 @@
 # 玩转 Pixelbook 之 ChromeOS
 最近由于“极客精神”突然发作，在二手市场购买了一台 **Pixelbook Go** 来捣鼓，由于 **Pixelbook Go** 默认采用的是 ChromeOS，于是有了这一篇文章，帮助那些未来想要把工作、娱乐、学习转移到 ChromeOS 的同学踩踩坑。
 
+![pixelbook go](../assets/pixelbook-go-chromeos/pixelbook-go-00.png)
+
 ## ChromeOS 简介
 ChromeOS 是 Google 推出的一款轻量级操作系统，并且它是开源的，到现在为止已经有了12个年头（2010年下半年发布）。它的默认应用都是基于 Web 的应用，核心要素和 Chrome 浏览器如出一辙：速度、简洁、安全。
 
