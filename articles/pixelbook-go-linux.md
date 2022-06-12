@@ -141,6 +141,12 @@ Manjaro 提供的软件非常丰富，直接通过`Add/Remove Software`也可以
   * 安装失败提示有两个依赖，需要单独先安装
 * 微信：wechat-uos
 
+### 软件开发
+* Nodejs
+  * sudo pacman -S nodejs
+  * sudo corepack enable
+  * 
+
 
 ## 系统设置
 Linux 系统和是市面上常用的操作系统（Windows，MacOS）有所不同，它的使用对象是对计算机更加专业的人使用的，倍受极客的追捧，Linux 设计的初衷也是开放、自由的，所以很多酷旋的软件都是在 Linux 上产生的，因为 Linux 和常用操作系统不一样的是：Linux 就像一个乐高积木，需要用户基于底层规则搭建属于自己的操作系统。你的桌面、工具、软件可以自己来定义，个性化能力非常强，有的高手甚至不需要图形界面就能完成很多事情。
@@ -200,7 +206,16 @@ AutoEnable=true
 
 ## 待解决问题
 * 声音问题
+  * 这个问题可能和硬件以及驱动有关，需要进一步研究。但是有一个临时解决方案，就是用蓝牙耳机（蓝牙音箱）连接，暂时解决声音的问题。
+  * https://github.com/pingud98/pixelbookgohardware
+  * https://forum.manjaro.org/t/audio-not-working-after-system-upgrade/110789
+  * https://forum.garudalinux.org/t/audio-problem-manually-installed-pulseaudio-conflicts-with-pipewire/11477/18
+  * manjaro-pipewire
+    * pipewire-jack
+  * manjaro-pulse
 * 触控板
+  * 触摸板感觉用起来非常奇怪，不知道是驱动问题还是软件调教问题，还有待研究。
+  * 现在暂时用蓝牙鼠标来解决这个问题。
 
 
 以下是最终成品截图：
