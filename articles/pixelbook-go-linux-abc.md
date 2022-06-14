@@ -136,7 +136,10 @@ Manjaro 提供的软件非常丰富，直接通过`Add/Remove Software`也可以
 * 滴答清单：dida-bin
 
 ### 娱乐应用
-* 网易云音乐：netease-cloud-music 
+* 网易云音乐：netease-cloud-music
+* QQ音乐：qqmusic-bin
+* Spotify：spotify
+  * 在国内不太好注册
 * Clash：clash-for-windows-bin
   * 安装失败提示有两个依赖，需要单独先安装
 * 微信：wechat-uos
@@ -216,6 +219,7 @@ AutoEnable=true
 * 触控板
   * 触摸板感觉用起来非常奇怪，不知道是驱动问题还是软件调教问题，还有待研究。
   * 现在暂时用蓝牙鼠标来解决这个问题。
+  * xf86-input-synaptics
 
 
 以下是最终成品截图：
