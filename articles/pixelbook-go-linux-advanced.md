@@ -1,5 +1,7 @@
 # 玩转 Pixelbook 之 Linux 进阶
 
+https://apps.gnome.org/zh-CN/
+
 ## 生产力
 
 ### zsh
@@ -27,4 +29,7 @@ sh install.sh
 
 https://www.gnome-look.org/browse/
 
-latte-dock
+* latte-dock
+* Font-Downloader：fontdownloader
+  * Noto Sans SC
+* Font Manager：font-manager

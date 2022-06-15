@@ -140,6 +140,7 @@ Manjaro 提供的软件非常丰富，直接通过`Add/Remove Software`也可以
 * QQ音乐：qqmusic-bin
 * Spotify：spotify
   * 在国内不太好注册
+* Amberol：amberol
 * Clash：clash-for-windows-bin
   * 安装失败提示有两个依赖，需要单独先安装
 * 微信：wechat-uos
@@ -149,7 +150,6 @@ Manjaro 提供的软件非常丰富，直接通过`Add/Remove Software`也可以
   * sudo pacman -S nodejs
   * sudo corepack enable
   * 
-
 
 ## 系统设置
 Linux 系统和是市面上常用的操作系统（Windows，MacOS）有所不同，它的使用对象是对计算机更加专业的人使用的，倍受极客的追捧，Linux 设计的初衷也是开放、自由的，所以很多酷旋的软件都是在 Linux 上产生的，因为 Linux 和常用操作系统不一样的是：Linux 就像一个乐高积木，需要用户基于底层规则搭建属于自己的操作系统。你的桌面、工具、软件可以自己来定义，个性化能力非常强，有的高手甚至不需要图形界面就能完成很多事情。
@@ -184,8 +184,8 @@ TODO：以下都需要一些图片
     * Legacy Window Titles: Cantarell Bold 11
     * Scaling Factor: 1.0
   * 改为
-    * Interface Text : Noto Sans Display Reguar 11
-    * Document Text: Noto Sans Mono Reguar 11
+    * Interface Text : Noto Sans SC Reguar 11
+    * Document Text: Noto Sans SC Reguar 11
     * Monospace Text: Hack Reguar 11
     * Legacy Window Titles: Cantarell Bold 11
     * Scaling Factor: 1.1
@@ -193,9 +193,13 @@ TODO：以下都需要一些图片
   * 位置：Setting -> Editor:Font Famliy
   * 默认设置：'Droid Sans Mono', 'monospace', monospace
   * 改为：'Noto Sans Mono Reguar', 'monospace', monospace
+  * Droid Sans Mono Regular
+  * Noto Sans Mono Reguar：这个字体有些问题，很多字看起来比较奇怪：`将`、
+  * Noto Sans Mono CJK SC Regular
+  * Noto Sans Mono CJK SC（推荐）
 
 ### 远程文件夹访问
-* 位置：Files->Other Locations
+* 位置：Files->Other Locations 
 
 ### 蓝牙启动开启
 修改蓝牙配置文件：`sudo vim /etc/bluetooth/main.conf`，将`AutoEnable`开启就可以了：
@@ -213,9 +217,11 @@ AutoEnable=true
   * https://github.com/pingud98/pixelbookgohardware
   * https://forum.manjaro.org/t/audio-not-working-after-system-upgrade/110789
   * https://forum.garudalinux.org/t/audio-problem-manually-installed-pulseaudio-conflicts-with-pipewire/11477/18
+  * https://blog.csdn.net/qq_43497702/article/details/104370104
   * manjaro-pipewire
     * pipewire-jack
   * manjaro-pulse
+  * 设置的声音输出显示：dummy output
 * 触控板
   * 触摸板感觉用起来非常奇怪，不知道是驱动问题还是软件调教问题，还有待研究。
   * 现在暂时用蓝牙鼠标来解决这个问题。
@@ -225,3 +231,4 @@ AutoEnable=true
 以下是最终成品截图：
 
 ![Manjaro](../assets/pixelbook-go-linux/manjaro-screenshot.png)
+
