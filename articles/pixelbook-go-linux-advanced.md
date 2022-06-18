@@ -1,6 +1,7 @@
 # 玩转 Pixelbook 之 Linux 进阶
 
-https://apps.gnome.org/zh-CN/
+* https://apps.gnome.org/zh-CN/
+* https://www.zhihu.com/search?type=content&q=manjaro%20git%20%E5%BA%94%E7%94%A8
 
 ## 生产力
 
@@ -33,3 +34,7 @@ https://www.gnome-look.org/browse/
 * Font-Downloader：fontdownloader
   * Noto Sans SC
 * Font Manager：font-manager
+* gnome-terminal-transparency
+
+## 设置
+* 触摸板：Tweaks -> Keyboard & Mouse -> Mouse Click Emulation -> Fingers
