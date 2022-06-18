@@ -38,3 +38,13 @@ https://www.gnome-look.org/browse/
 
 ## 设置
 * 触摸板：Tweaks -> Keyboard & Mouse -> Mouse Click Emulation -> Fingers
+
+### VSCode
+* git
+  * Access Token
+    * GitHub -> Setting -> Developer settings -> Personal access tokens
+  * 提交过程中会提示
+    * Access Token：此处填写生成的 access tokens
+    * Username：此处填写GitHub账户名称
+    * Password：此处填写生成的 access tokens
+  * 记住每次提交、同步操作时要输入用户名密码过程：git config --global credential.helper store
