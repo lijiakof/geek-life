@@ -7,7 +7,7 @@
 
 ### zsh
 
-```
+```bash
 # 安装 zsh
 sudo pacman -S zsh
 
@@ -24,6 +24,7 @@ sh install.sh
 ```
 
 ## 插件
+
 * Unite：Top bar（顶部面板） 与应用菜单栏 融为一体，增加工作区域
 
 ## 美化
@@ -37,9 +38,11 @@ https://www.gnome-look.org/browse/
 * gnome-terminal-transparency
 
 ## 设置
+
 * 触摸板：Tweaks -> Keyboard & Mouse -> Mouse Click Emulation -> Fingers
 
 ### VSCode
+
 * git
   * Access Token
     * GitHub -> Setting -> Developer settings -> Personal access tokens
