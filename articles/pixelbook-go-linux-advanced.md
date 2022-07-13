@@ -40,6 +40,7 @@ https://www.gnome-look.org/browse/
 ## 设置
 
 * 触摸板：Tweaks -> Keyboard & Mouse -> Mouse Click Emulation -> Fingers
+* 左上角：Settings -> Multitasking -> General -> Hot Corner
 
 ### VSCode
 
