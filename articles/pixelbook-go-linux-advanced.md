@@ -41,6 +41,8 @@ https://www.gnome-look.org/browse/
 
 * 触摸板：Tweaks -> Keyboard & Mouse -> Mouse Click Emulation -> Fingers
 * 左上角：Settings -> Multitasking -> General -> Hot Corner
+* 开启Snap：Software -> Performances -> Third Party -> Snap
+  * 这样软件就能够更新小版本了
 
 ### VSCode
 
@@ -52,5 +54,13 @@ https://www.gnome-look.org/browse/
     * Username：此处填写GitHub账户名称
     * Password：此处填写生成的 access tokens
   * 记住每次提交、同步操作时要输入用户名密码过程：git config --global credential.helper store
+
+### 微信
+
+A JavaScript error occurred in the main process
+Error: spawn /usr/bin/scrot ENOENT
+at ChildProcess._handle.onexit(node:internal/child_process:283:19)
+at onErrorNT(node:internal/child_process:478:16)
+at process.processTicksAndRejections(node:internal/process/task_queues:83:21)
 
 ## 开机速度优化
