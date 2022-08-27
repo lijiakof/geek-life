@@ -222,7 +222,7 @@ TODO：以下都需要一些图片
 
 ### 远程文件夹访问
 
-* 位置：Files->Other Locations 
+* 位置：Files->Other Locations
 
 ### 蓝牙启动开启
 

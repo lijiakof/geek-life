@@ -54,6 +54,9 @@ https://www.gnome-look.org/browse/
     * Username：此处填写GitHub账户名称
     * Password：此处填写生成的 access tokens
   * 记住每次提交、同步操作时要输入用户名密码过程：git config --global credential.helper store
+* Power Mode
+  * Powermode Enabled：打开
+  * Powermode>Shake Enabled：关闭
 
 ### 微信
 
