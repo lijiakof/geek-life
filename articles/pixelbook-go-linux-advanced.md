@@ -58,6 +58,14 @@ https://www.gnome-look.org/browse/
   * Powermode Enabled：打开
   * Powermode>Shake Enabled：关闭
 
+## 截屏
+
+* flameshot
+  * 设置快捷键：Custom Shotcuts
+    * Name: Screen Shot
+    * Commond: flameshot gui
+    * Shotcut
+
 ### 微信
 
 A JavaScript error occurred in the main process
