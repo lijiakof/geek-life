@@ -75,3 +75,26 @@ at onErrorNT(node:internal/child_process:478:16)
 at process.processTicksAndRejections(node:internal/process/task_queues:83:21)
 
 ## 开机速度优化
+
+## coreboot
+
+## 开机LOGO
+
+* 安装
+  * sudo pacman -S plymouth 新版本自带
+* 将 plymouth 添加到 mkinitcpio.conf 的 HOOKS
+  * `sudo vim /etc/mkinitcpio.conf`
+  * `HOOKS="base udev plymouth autodetect modconf block keyboard keymap consolefont plymouth filesystems fsck"`
+* 配置 grub
+  * `sudo vim /etc/default/grub`
+  * 'GRUB_TIMEOUT=1'
+* 重新生成引导配置：`grub-mkconfig -o /boot/grub/grub.cfg`
+* 重建 initrd 镜像：`mkinitcpio -p linux<version>`
+* 配置 plymouth
+  * `sudo plymouth-set-default-theme -l`
+  * `sudo plymouth-set-default-theme -R spinfinity`
+  * `/etc/plymouth/plymouthd.conf`
+
+<https://www.jianshu.com/p/a908153d1a4d>
+<https://wiki.archlinux.org/title/plymouth>
+<https://www.youtube.com/watch?v=eTk2yG1JFsE>
