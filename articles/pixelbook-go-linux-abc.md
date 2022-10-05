@@ -25,7 +25,7 @@ TODO：这部分需要一些图文
 
 ### 通过固件脚本让 ChromeOS 设备从 U 盘启动
 
-这个部分非常专业，由于 ChromeOS 设备的固件只认识 ChromeOS，所以重刷新的系统时必须打破这个限制，这个过程相当复杂，但这也挡不住“极客”的好奇心，牛人已经做好了相关脚本，可以让你直接在 ChromeOS 的开发者模式中运行，并让设备通过 U 盘启动非 ChromeOS 的系统，脚本链接：https://mrchromebox.tech/#fwscript。
+这个部分非常专业，由于 ChromeOS 设备的固件只认识 ChromeOS，所以重刷新的系统时必须打破这个限制，这个过程相当复杂，但这也挡不住“极客”的好奇心，牛人已经做好了相关脚本，可以让你直接在 ChromeOS 的开发者模式中运行，并让设备通过 U 盘启动非 ChromeOS 的系统，脚本链接：<https://mrchromebox.tech/#fwscript>。
 
 根据这篇文章，我们可以简单的命令行就能完成整个操作：`cd; curl -LOk mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh`。
 
@@ -41,18 +41,18 @@ TODO：这部分需要一些图文
 
 非常感谢这两个视频的作者：
 
-* https://www.bilibili.com/video/av795919629/
-* https://www.youtube.com/watch?v=Nzp_fmG4QRA
+* <https://www.bilibili.com/video/av795919629/>
+* <https://www.youtube.com/watch?v=Nzp_fmG4QRA>
 
 ## 刷机
 
 只要能够通过 U 盘启动，刷机过程还是比较顺畅的，我这里选择的 Linux 系统是最近比较流行的基于 Arch 架构的的 Manjaro，当然它的版本比较多，我直接选择了有现代化 UI 的 Gnome 版本。Manjaro 安装过程比较轻松简单：
 
 * 下载系统：
-  * 下载地址：https://manjaro.org/download/。
+  * 下载地址：<https://manjaro.org/download/>。
   * 我选择的是 Gnome 版本。
 * 制作镜像：
-  * 我采用的是 balenaEtcher：https://www.balena.io/etcher/。
+  * 我采用的是 balenaEtcher：<https://www.balena.io/etcher/>。
   * 安装好 balenaEtcher 后，插入 U 盘。
   * 选择镜像->选择 U 盘->Flash。
 * 将制作好的启动盘，插入机器（需要和上面开启 ChromeOS 从 U 盘启动关联起来）。
@@ -149,8 +149,8 @@ Manjaro 提供的软件非常丰富，直接通过`Add/Remove Software`也可以
 * VSCode：visual-studio-code-bin
 * Vim：Vim(gvim)
 * Xmind：xmind
-* Notes：https://www.get-notes.com/
-* WPS：wps-office https://www.wps.com/office/linux/
+* Notes：<https://www.get-notes.com/>
+* WPS：wps-office <https://www.wps.com/office/linux/>
 * 滴答清单：dida-bin
 
 ### 娱乐应用
@@ -192,7 +192,7 @@ TODO：以下都需要一些图片
 * Dash to Dock
   * 位置：Extensions -> Dash to Dock -> Settings -> Appearance
 * Transparent Top Bar
-  * https://extensions.gnome.org/extension/3960/transparent-top-bar-adjustable-transparency/
+  * <https://extensions.gnome.org/extension/3960/transparent-top-bar-adjustable-transparency/>
 
 ### 字体
 
@@ -239,10 +239,10 @@ AutoEnable=true
 
 * 声音问题
   * 这个问题可能和硬件以及驱动有关，需要进一步研究。但是有一个临时解决方案，就是用蓝牙耳机（蓝牙音箱）连接，暂时解决声音的问题。
-  * https://github.com/pingud98/pixelbookgohardware
-  * https://forum.manjaro.org/t/audio-not-working-after-system-upgrade/110789
-  * https://forum.garudalinux.org/t/audio-problem-manually-installed-pulseaudio-conflicts-with-pipewire/11477/18
-  * https://blog.csdn.net/qq_43497702/article/details/104370104
+  * <https://github.com/pingud98/pixelbookgohardware>
+  * <https://forum.manjaro.org/t/audio-not-working-after-system-upgrade/110789>
+  * <https://forum.garudalinux.org/t/audio-problem-manually-installed-pulseaudio-conflicts-with-pipewire/11477/18>
+  * <https://blog.csdn.net/qq_43497702/article/details/104370104>
   * manjaro-pipewire
     * pipewire-jack
   * manjaro-pulse

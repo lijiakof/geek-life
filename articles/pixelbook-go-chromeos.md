@@ -93,8 +93,8 @@ ChromeOS 提供的 Linux 容器，默认是没有中文输入法的，当然熟�
   * 命令行：`sudo vim ~/.sommelierrc`
   * 添加一行信息：`/usr/bin/fcitx-autostart`
 * 参考：
-  * https://chamboin.github.io/2019/12/25/pixelbook-linux-locale/
-  * https://noob.tw/chromeos-vscode/
+  * <https://chamboin.github.io/2019/12/25/pixelbook-linux-locale/>
+  * <https://noob.tw/chromeos-vscode/>
 
 ### Linux 环境字体安装
 
@@ -109,14 +109,14 @@ ChromeOS 提供的 Linux 容器，默认是没有中文输入法的，当然熟�
 
 * Noto Sans CJK SC
   * GoogleOS 默认字体，经过精心设计，推荐
-  * 下载地址：https://fonts.google.com/noto/specimen/Noto+Sans+SC
+  * 下载地址：<https://fonts.google.com/noto/specimen/Noto+Sans+SC>
 * Noto Sans Mono CJK SC
   * Google 的等宽字体，对于开发者来说强力推荐
   * 建议安装了 VSCode 的将字体设置成该字体：Text Editor->Font Famliy: 'Noto Sans Mono CJK SC', 'Droid Sans Mono', 'monospace', monospace
     * VSCode 默认字体：'Droid Sans Mono', 'monospace', monospace
 * JetBrains Mono
   * Jetbrains 设计的面向编程的等款字体
-  * https://www.jetbrains.com/zh-cn/lp/mono/
+  * <https://www.jetbrains.com/zh-cn/lp/mono/>
 
 ## 推荐应用
 
@@ -137,18 +137,18 @@ ChromeOS 提供的 Linux 容器，默认是没有中文输入法的，当然熟�
 
 * [Linux]VSCode
 * [Linux]Typora
-  * 下载地址：https://www.typora.io/#linux
+  * 下载地址：<https://www.typora.io/#linux>
   * `wget -qO - https://typora.io/linux/public-key.asc | sudo apt-key add -`
   * `sudo add-apt-repository 'deb https://typora.io/linux ./'`
   * `sudo apt-get update`
   * `sudo apt-get install typora`
 * [Linux]滴答清单
-  * 下载地址：https://www.dida365.com/about/download
+  * 下载地址：<https://www.dida365.com/about/download>
 
 ### 娱乐应用
 
 * [Linux]Deepin-Wechat，借助 `Wine` 套娃方式，不推荐
-  * 下载地址：https://deepin-wine.i-m.dev/
+  * 下载地址：<https://deepin-wine.i-m.dev/>
   * `wget -O- https://deepin-wine.i-m.dev/setup.sh | sh`
   * `sudo apt-get install -y com.qq.weixin.deepin`
   * 图片问题：`sudo apt install libjpeg62:i386`
@@ -157,12 +157,12 @@ ChromeOS 提供的 Linux 容器，默认是没有中文输入法的，当然熟�
     * `dpkg -l | grep wine`
     * `sudo apt remove deepin-wine6-stable deepin-wine-helper deepin-wine6-stable-amd64 deepin-wine6-stable-i386`
 * [Linux]网易云音乐
-  * 下载地址：https://music.163.com/#/download
+  * 下载地址：<https://music.163.com/#/download>
   * 字体太小问题：
     * `sudo vim /usr/share/applications/netease-cloud-music.desktop`
     * 修改这一行：`Exec=netease-cloud-music --force-device-scale-factor=1.2 %U`
 * [Linux]YesPlayMusic
-  * 下载地址：https://github.com/qier222/YesPlayMusic
+  * 下载地址：<https://github.com/qier222/YesPlayMusic>
 
 ## 其他设置
 
