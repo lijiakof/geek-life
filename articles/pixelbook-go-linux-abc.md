@@ -160,7 +160,7 @@ Manjaro 提供的软件非常丰富，直接通过`Add/Remove Software`也可以
 * Spotify：spotify
   * 在国内不太好注册
 * Amberol：amberol
-  * 注意全量更新系统软件时，需要先忽略此软件，因为安装此软件需要翻墙
+  * 注意：全量更新系统软件时，需要先忽略此软件，因为安装此软件需要翻墙
 * Clash：clash-for-windows-bin
   * 安装失败提示有两个依赖，需要单独先安装
 * 微信：wechat-uos
