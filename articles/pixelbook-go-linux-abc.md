@@ -87,6 +87,8 @@ Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
 
 在 Linux 生态中，输入法还是 `Fcitx`，一款输入法框架，它为 Linux 系统提供一个灵活的输入方案：
 
+* Delete Fcitx
+  * `sudo pacman -Rs $(pacman -Qsq fcitx)`
 * 安装 Fcitx
   * `sudo pacman -S fcitx-im`
 * 安装配置工具
@@ -101,6 +103,7 @@ GTK_IM_MODULE=fcitx
 QT_IM_MODULE=fcitx
 XMODIFIERS=@im=fcitx
 ```
+https://zhuanlan.zhihu.com/p/463866526
 
 * 重启
 
@@ -115,6 +118,10 @@ XMODIFIERS=@im=fcitx
 位置：fcitx-configtool -> addon -> Pinyin(Simple pinyin for fcitx)
 
 ![Fcitx](../assets/pixelbook-go-linux/fcitx-03.png)
+
+* https://zhuanlan.zhihu.com/p/468426138
+* sudo pacman -S fcitx5 fcitx5-configtool fcitx5-qt fcitx5-gtk fcitx5-chinese-addons fcitx5-material-color kcm-fcitx5 fcitx5-lua
+* ibus:https://linuxacme.cn/559
 
 ## 如何安装软件
 
