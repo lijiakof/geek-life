@@ -154,6 +154,7 @@ Manjaro 提供的软件非常丰富，直接通过`Add/Remove Software`也可以
 
 * Typora：typora
 * VSCode：visual-studio-code-bin
+* VSCodium
 * Vim：Vim(gvim)
 * Xmind：xmind
 * Notes：<https://www.get-notes.com/>
