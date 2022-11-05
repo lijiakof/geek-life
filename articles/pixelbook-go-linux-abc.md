@@ -202,6 +202,7 @@ TODO：以下都需要一些图片
   * 位置：Extensions -> Dash to Dock -> Settings -> Appearance
 * Transparent Top Bar
   * <https://extensions.gnome.org/extension/3960/transparent-top-bar-adjustable-transparency/>
+  * https://extensions.gnome.org/
 
 ### 字体
 
