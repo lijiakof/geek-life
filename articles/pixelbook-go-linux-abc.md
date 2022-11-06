@@ -119,9 +119,12 @@ https://zhuanlan.zhihu.com/p/463866526
 
 ![Fcitx](../assets/pixelbook-go-linux/fcitx-03.png)
 
+### Fcitx5
+
 * https://zhuanlan.zhihu.com/p/468426138
 * sudo pacman -S fcitx5 fcitx5-configtool fcitx5-qt fcitx5-gtk fcitx5-chinese-addons fcitx5-material-color kcm-fcitx5 fcitx5-lua
 * ibus:https://linuxacme.cn/559
+* echo $XDG_SESSION_TYPE
 
 ## 如何安装软件
 
@@ -224,7 +227,7 @@ TODO：以下都需要一些图片
 * VSCode 字体
   * 位置：Setting -> Editor:Font Famliy
   * 默认设置：'Droid Sans Mono', 'monospace', monospace
-  * 改为：'Noto Sans Mono Reguar', 'monospace', monospace
+  * 改为：'Noto Sans Mono Regular', 'monospace', monospace
   * Droid Sans Mono Regular
   * Noto Sans Mono Reguar：这个字体有些问题，很多字看起来比较奇怪：`将`、
   * Noto Sans Mono CJK SC Regular
