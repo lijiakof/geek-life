@@ -103,7 +103,6 @@ GTK_IM_MODULE=fcitx
 QT_IM_MODULE=fcitx
 XMODIFIERS=@im=fcitx
 ```
-https://zhuanlan.zhihu.com/p/463866526
 
 * 重启
 
@@ -124,6 +123,7 @@ https://zhuanlan.zhihu.com/p/463866526
 * https://zhuanlan.zhihu.com/p/468426138
 * sudo pacman -S fcitx5 fcitx5-configtool fcitx5-qt fcitx5-gtk fcitx5-chinese-addons fcitx5-material-color kcm-fcitx5 fcitx5-lua
 * ibus:https://linuxacme.cn/559
+* https://zhuanlan.zhihu.com/p/463866526
 * echo $XDG_SESSION_TYPE
 
 ## 如何安装软件
