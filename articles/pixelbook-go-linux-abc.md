@@ -118,13 +118,24 @@ XMODIFIERS=@im=fcitx
 
 ![Fcitx](../assets/pixelbook-go-linux/fcitx-03.png)
 
+### 问题
+
+* 2022年10月版本，升级好，输入法无法在 Topbar 上显示，但是可以正常使用。
+* 2022年11月5日版本，升级后导致 Fcitx 无法使用，在配置列表中无择输入法可选择。
+  * 通过重装系统（2022年8月版本）可正常使用
+  * 据说是 Fcitx 对桌面显示服务为 wayland 类型时（通过命令 echo $XDG_SESSION_TYPE），无法正常使用，但 x11 可以，但是2022年8月版本没有这样的问题
+  * 另外据说，iBus 输入法没有这样的问题
+
 ### Fcitx5
 
-* https://zhuanlan.zhihu.com/p/468426138
 * sudo pacman -S fcitx5 fcitx5-configtool fcitx5-qt fcitx5-gtk fcitx5-chinese-addons fcitx5-material-color kcm-fcitx5 fcitx5-lua
-* ibus:https://linuxacme.cn/559
-* https://zhuanlan.zhihu.com/p/463866526
-* echo $XDG_SESSION_TYPE
+* TODO：
+* <https://zhuanlan.zhihu.com/p/468426138>
+* <https://zhuanlan.zhihu.com/p/463866526>
+
+### iBus
+
+* ibus:<https://linuxacme.cn/559>
 
 ## 如何安装软件
 
