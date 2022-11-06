@@ -188,7 +188,7 @@ Manjaro 提供的软件非常丰富，直接通过`Add/Remove Software`也可以
 * Clash：clash-for-windows-bin
   * 安装失败提示有两个依赖，需要单独先安装
   * 关于 ArchLinux 及其衍生版 Service Mode 无法安装错误的解决办法：<https://github.com/Fndroid/clash_for_windows_pkg/issues/3555>
-  * https://docs.cfw.lbyczf.com/
+  * <https://docs.cfw.lbyczf.com/>
   * 如果没有 system proxy，设置TUN Mode ->TUN stack设置成system即可
 * 微信：wechat-uos
 
@@ -221,7 +221,7 @@ TODO：以下都需要一些图片
   * 位置：Extensions -> Dash to Dock -> Settings -> Appearance
 * Transparent Top Bar
   * <https://extensions.gnome.org/extension/3960/transparent-top-bar-adjustable-transparency/>
-  * https://extensions.gnome.org/
+  * <https://extensions.gnome.org/>
 
 ### 字体
 
