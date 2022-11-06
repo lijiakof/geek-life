@@ -135,6 +135,8 @@ XMODIFIERS=@im=fcitx
 
 ### iBus
 
+TODO：
+
 * ibus:<https://linuxacme.cn/559>
 
 ## 如何安装软件
@@ -185,6 +187,9 @@ Manjaro 提供的软件非常丰富，直接通过`Add/Remove Software`也可以
   * 注意：全量更新系统软件时，需要先忽略此软件，因为安装此软件需要翻墙
 * Clash：clash-for-windows-bin
   * 安装失败提示有两个依赖，需要单独先安装
+  * 关于 ArchLinux 及其衍生版 Service Mode 无法安装错误的解决办法：<https://github.com/Fndroid/clash_for_windows_pkg/issues/3555>
+  * https://docs.cfw.lbyczf.com/
+  * 如果没有 system proxy，设置TUN Mode ->TUN stack设置成system即可
 * 微信：wechat-uos
 
 ### 软件开发
