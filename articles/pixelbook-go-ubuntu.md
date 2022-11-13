@@ -1,5 +1,15 @@
 # 玩转 Pixelbook 之 Ubuntu
 
+## 系统安装
+
+## 软件安装
+
+软件安装可以通过 3 种方式：
+
+* Ubuntu Software：Ubuntu 自带软件市场，这种方式非常简单也容易管理，但是往往出现网络或者软件不能正常运行的情况
+* 命令行安装：通过 `sudo apt install <app name>` 命令来安装
+* 手动安装：到软件官网下载 `.deb` 软件包，然后通过 `sudo apt install <app path>` 命令来安装
+
 ## 中文输入法
 
 Ubuntu 在输入法的支持上做得还不错，非常方便。
@@ -33,12 +43,40 @@ Ubuntu 在输入法的支持上做得还不错，非常方便。
 
 ## Clash
 
-使用 Clash for Windows 图形界面，但是在 Ubuntu 需要纯手动安装
+使用 Clash for Windows 图形界面，但是在 Ubuntu 需要纯手动安装。
 
 * 下载：<https://github.com/Fndroid/clash_for_windows_pkg/releases>
   * Clash.for.Windows-0.20.7-x64-linux.tar.gz
 * 解压：将文件内容解压到`/opt/clash-for-windows-bin`
 * 运行：通过命令行进入到安装目录，直接运行`./cfw`
-* 配置：TODO
-  * Clash 配置
-  * 系统代理配置：Settings -> Network -> Network Proxy
+
+### 配置：TODO
+
+Clash 在 Ubuntu 上的配置比较复杂，不仅要对 Clash 进行配置，而且要对系统的网络代理进行配置
+
+* Clash 配置
+* 系统代理配置：Settings -> Network -> Network Proxy
+
+## 常用软件
+
+* Chrome：
+  * 手动安装：
+    * `wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb`
+    * `sudo apt install ./google-chrome-stable_current_amd64.deb`
+  * 命令安装：`sudo apt install google-chrome-stable`
+* VSCode
+  * Ubuntu Software：
+    * 通过 Ubuntu 商店安装的 VSCode 是阉割版本，无法输入中文汉字
+  * 手动安装：
+    * 官网下载：https://code.visualstudio.com/
+    * `sudo apt install code_1.73.1-1667967334_amd64.deb`
+* zsh
+  * `sudo apt install zsh`
+  * `chsh -s /bin/zsh`
+* 微信
+  * <https://www.ubuntukylin.com/applications/106-cn.html>
+  * <https://www.ubuntukylin.com/applications/119-cn.html>
+* Flameshot 截屏
+  * `sudo apt install flameshot`
+* MPV 播放器
+  * `sudo apt install mpv`
