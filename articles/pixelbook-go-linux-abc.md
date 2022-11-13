@@ -132,10 +132,12 @@ XMODIFIERS=@im=fcitx
 * TODO：
 * <https://zhuanlan.zhihu.com/p/468426138>
 * <https://zhuanlan.zhihu.com/p/463866526>
+* https://wiki.archlinux.org/title/Fcitx5_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)
+* https://github.com/fcitx/fcitx5/issues/263
 
 ### iBus
 
-TODO：
+TODO：https://wiki.archlinux.org/title/IBus_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)#%E5%AE%89%E8%A3%85
 
 * ibus:<https://linuxacme.cn/559>
 
