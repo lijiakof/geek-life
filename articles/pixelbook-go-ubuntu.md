@@ -1,46 +1,44 @@
-# ubuntu
-
-* 中文输入：https://www.php.cn/faq/475747.html
-* 安装应用
-* 安装chrome：
-  * wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-  * sudo apt install ./google-chrome-stable_current_amd64.deb
-  * sudo apt install google-chrome-stable
-* vcode 中文输入：https://www.finclip.com/news/f/16099.html
-* clash
-  * https://www.cnblogs.com/Jiang13537/p/15571504.html
-  * https://docs.cfw.lbyczf.com/contents/tray.html#%E7%89%88%E6%9C%AC%E8%A6%81%E6%B1%82
-* sudo snap install
-  * wps-office
-  * typora
-* Ubuntu Software: Extensions
-  * https://extensions.gnome.org/extension/3960/transparent-top-bar-adjustable-transparency/
+# 玩转 Pixelbook 之 Ubuntu
 
 ## 中文输入法
-TODO：https://www.php.cn/faq/475747.html
 
-## Clash for windows
+Ubuntu 在输入法的支持上做得还不错，非常方便。
 
-* 下载 Liunx 版本：https://github.com/Fndroid/clash_for_windows_pkg/releases
+* Settings
+  * Language -> Manage Installed Laguages -> Install/Remove Languages... -> Chinese
+  * Keyboard -> Input Sources -> + Add an Input Source -> Chinese -> Chinese(Intelligent Pinyin)
+* 切换到中文输入法 -> Topbar 右侧选中输入法 -> Perferences
+  * Fuzzy syllable: 模糊拼音
+  * Shortcuts: 中英文切换 `<Control>space`
+
+## 操作习惯&体验
+
+### Tweaks
+
+* 安装：apt install gnome-tweaks
+* 设置：
+  * Mac cmd键：Keyboard & Mouse -> Additional Layout Options -> Alt and Win behavior -> Ctrl is mapped to Alt, Alt to Win
+  * Mac 窗口按钮：Window Titlebars -> Placement -> Left
+
+### Gnome 扩展插件
+
+* 安装：Ubuntu Software -> Extensions
+* 官网：<https://extensions.gnome.org/>
+* Chrome 插件：GNOME Shell integration
+* 插件：
+  * ArcMenu：<https://extensions.gnome.org/extension/3628/arcmenu/>
+  * Proxy Switcher：<https://extensions.gnome.org/extension/771/proxy-switcher/>
+  * Transparent Top Bar：<https://extensions.gnome.org/extension/3960/transparent-top-bar-adjustable-transparency/>
+  * Dash to Dock：<https://extensions.gnome.org/extension/307/dash-to-dock/>
+
+## Clash
+
+使用 Clash for Windows 图形界面，但是在 Ubuntu 需要纯手动安装
+
+* 下载：<https://github.com/Fndroid/clash_for_windows_pkg/releases>
   * Clash.for.Windows-0.20.7-x64-linux.tar.gz
-* 解压到 /opt/clash-for-windows-bin
-* 直接运行 ./cfw
-* 在 General 的 Service Mode 中安装 Service Manage
-* 在 Profiles 中配置 yaml 文件
-* 在 Ubuntu 系统配置中 Network 配置 Network Proxy
-  * https://github.com/Fndroid/clash_for_windows_pkg/issues/3523
-* 简单化操作：随即启动+插件
-  * General -> Start with Linux
-  * Proxy Switcher：https://extensions.gnome.org/extension/771/proxy-switcher/
-  * 这样就能在
-
-## 键盘映射
-http://www.ptbird.cn/ubuntu-mac-os-vscode-keycut.html
-
-## zsh
-sudo apt install zsh
-chsh -s /bin/zsh
-dd
-
-## git
-git clone https://oauth2:<access token>@github.com/lijiakof/geek-life.git
+* 解压：将文件内容解压到`/opt/clash-for-windows-bin`
+* 运行：通过命令行进入到安装目录，直接运行`./cfw`
+* 配置：TODO
+  * Clash 配置
+  * 系统代理配置：Settings -> Network -> Network Proxy
