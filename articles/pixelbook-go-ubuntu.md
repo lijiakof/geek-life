@@ -40,6 +40,7 @@ http://www.ptbird.cn/ubuntu-mac-os-vscode-keycut.html
 ## zsh
 sudo apt install zsh
 chsh -s /bin/zsh
+dd
 
 ## git
 git clone https://oauth2:<access token>@github.com/lijiakof/geek-life.git
