@@ -80,3 +80,13 @@ Clash 在 Ubuntu 上的配置比较复杂，不仅要对 Clash 进行配置，�
   * `sudo apt install flameshot`
 * MPV 播放器
   * `sudo apt install mpv`
+
+## 字体
+
+* VSCode
+  * 位置：Setting -> Editor:Font Family
+  * 默认：'Droid Sans Mono', 'monospace', monospace
+  * 改为：'Noto Sans Mono CJK SC Regular'
+* Chrome
+  * 位置：Setting -> Appearance -> Customize fonts
+  * 改为：Noto Sans Mono CJK SC
