@@ -83,6 +83,8 @@ Clash 在 Ubuntu 上的配置比较复杂，不仅要对 Clash 进行配置，�
 
 ## 字体
 
+* 系统
+  * Tweaks -> Fonts
 * VSCode
   * 位置：Setting -> Editor:Font Family
   * 默认：'Droid Sans Mono', 'monospace', monospace
