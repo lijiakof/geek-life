@@ -68,7 +68,7 @@ Clash 在 Ubuntu 上的配置比较复杂，不仅要对 Clash 进行配置，�
   * Ubuntu Software：
     * 通过 Ubuntu 商店安装的 VSCode 是阉割版本，无法输入中文汉字
   * 手动安装：
-    * 官网下载：https://code.visualstudio.com/
+    * 官网下载：<https://code.visualstudio.com/>
     * `sudo apt install code_1.73.1-1667967334_amd64.deb`
 * zsh
   * `sudo apt install zsh`
