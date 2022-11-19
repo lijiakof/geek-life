@@ -8,6 +8,7 @@
   * SubHD：<https://subhd.tv/>
   * 电影天堂：<https://www.dytt8.net/>
 * 我的代理：<https://neoproxy.org/>
+* 壁纸：<https://wallhaven.cc/>
 
 ## 电影
 

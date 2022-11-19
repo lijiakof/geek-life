@@ -75,7 +75,7 @@ Clash 在 Ubuntu 上的配置比较复杂，不仅要对 Clash 进行配置，�
   * `chsh -s /bin/zsh`
 * 微信
   * <https://www.ubuntukylin.com/applications/106-cn.html>
-  * <https://www.ubuntukylin.com/applications/119-cn.html>
+  * 微信（Wine）:<https://www.ubuntukylin.com/applications/119-cn.html>
 * Flameshot 截屏
   * `sudo apt install flameshot`
 * MPV 播放器
