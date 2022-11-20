@@ -12,3 +12,4 @@
   * Input: 9=20V 6A(Max)
   * Output: 60W
 * Anker
+* GPi CASE 2

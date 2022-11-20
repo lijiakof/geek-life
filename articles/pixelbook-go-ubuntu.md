@@ -2,6 +2,8 @@
 
 ## 系统安装
 
+系统安装比较简单，做好镜像后通过 U 盘启动，按照提示一步一步设置就可以了。
+
 ## 软件安装
 
 软件安装可以通过 3 种方式：
@@ -80,6 +82,14 @@ Clash 在 Ubuntu 上的配置比较复杂，不仅要对 Clash 进行配置，�
   * `sudo apt install flameshot`
 * MPV 播放器
   * `sudo apt install mpv`
+* Etcher
+  * <https://github.com/balena-io/etcher>
+  * sudo apt update
+  * sudo apt upgrade
+  * sudo apt install wget apt-transport-https gnupg2
+  * curl -1sLf 'https://dl.cloudsmith.io/public/balena/etcher/setup.deb.sh' | sudo -E bash
+  * sudo apt update
+  * sudo apt install balena-etcher-electron
 
 ## 字体
 
@@ -88,7 +98,7 @@ Clash 在 Ubuntu 上的配置比较复杂，不仅要对 Clash 进行配置，�
 * VSCode
   * 位置：Setting -> Editor:Font Family
   * 默认：'Droid Sans Mono', 'monospace', monospace
-  * 改为：'Noto Sans Mono CJK SC Regular'
+  * 改为：'Noto Sans Mono CJK SC'
 * Chrome
   * 位置：Setting -> Appearance -> Customize fonts
   * 改为：Noto Sans Mono CJK SC
