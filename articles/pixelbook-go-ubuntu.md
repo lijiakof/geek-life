@@ -90,6 +90,8 @@ Clash 在 Ubuntu 上的配置比较复杂，不仅要对 Clash 进行配置，�
   * curl -1sLf 'https://dl.cloudsmith.io/public/balena/etcher/setup.deb.sh' | sudo -E bash
   * sudo apt update
   * sudo apt install balena-etcher-electron
+* Neofetch 命令行系统显示
+  * sudo apt install neofetch
 
 ## 字体
 
