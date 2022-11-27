@@ -102,3 +102,25 @@ Clash 在 Ubuntu 上的配置比较复杂，不仅要对 Clash 进行配置，�
 * Chrome
   * 位置：Setting -> Appearance -> Customize fonts
   * 改为：Noto Sans Mono CJK SC
+
+## 启动图标
+
+* 进入 /usr/share/applications/
+* 创建 your_app.desktop
+
+```text
+[Desktop Entry]
+Encoding=UTF-8
+Name=Clash
+Comment=Clash for Windows
+Exec=/opt/clash-for-windows-bin/cfw 
+Icon=/opt/clash-for-windows-bin/clash-icon.png
+Terminal=false
+StartupNotify=true
+Type=Application
+```
+
+* 保存，并设置权限sudo chmod 744 your_app.desktop
+* 重启系统
+
+https://zhuanlan.zhihu.com/p/550291591
