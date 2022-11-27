@@ -110,6 +110,8 @@ Clash 在 Ubuntu 上的配置比较复杂，不仅要对 Clash 进行配置，�
 * 设置权限 `sudo chmod 744 your_app.desktop`
 * 重启系统
 
+your_app.desktop 文件内容：
+
 ```text
 [Desktop Entry]
 Encoding=UTF-8
