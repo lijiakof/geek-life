@@ -105,8 +105,10 @@ Clash 在 Ubuntu 上的配置比较复杂，不仅要对 Clash 进行配置，�
 
 ## 启动图标
 
-* 进入 /usr/share/applications/
-* 创建 your_app.desktop
+* 进入应用程序文件夹 `cd /usr/share/applications/`
+* 创建应用桌面文件 `your_app.desktop` ,文件内容如下
+* 设置权限 `sudo chmod 744 your_app.desktop`
+* 重启系统
 
 ```text
 [Desktop Entry]
@@ -119,8 +121,3 @@ Terminal=false
 StartupNotify=true
 Type=Application
 ```
-
-* 保存，并设置权限sudo chmod 744 your_app.desktop
-* 重启系统
-
-https://zhuanlan.zhihu.com/p/550291591
