@@ -58,6 +58,9 @@ Clash 在 Ubuntu 上的配置比较复杂，不仅要对 Clash 进行配置，�
 
 * Clash 配置
 * 系统代理配置：Settings -> Network -> Network Proxy
+* 命令行运行/关闭代理
+  * gsettings set org.gnome.system.proxy mode 'manual'
+  * gsettings set org.gnome.system.proxy mode 'none'
 
 ## 常用软件
 
@@ -127,3 +130,7 @@ Terminal=false
 StartupNotify=true
 Type=Application
 ```
+
+## 解决声卡等问题
+
+<https://github.com/yusefnapora/pixelbook-linux>
