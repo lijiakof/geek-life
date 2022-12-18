@@ -95,6 +95,13 @@ Clash 在 Ubuntu 上的配置比较复杂，不仅要对 Clash 进行配置，�
   * sudo apt install balena-etcher-electron
 * Neofetch 命令行系统显示
   * sudo apt install neofetch
+* QQ 音乐
+  * 官网下载：https://y.qq.com/download/download.html
+  * sudo apt install ./qqmusic_1.1.5_amd64.deb
+  * 闪退问题：
+    * cd /sudo vi /usr/share/applications/qqmusic.desktop
+    * 在 Exec 后面增加 --no-sandbox
+    * Exec=/opt/qqmusic/qqmusic --no-sandbox %U
 
 ## 字体
 

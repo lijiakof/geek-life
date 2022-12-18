@@ -13,3 +13,5 @@
   * Output: 60W
 * Anker
 * GPi CASE 2
+* Razer Book 13
+* DMC12
