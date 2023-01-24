@@ -52,7 +52,7 @@
 | 魂斗罗             | Contra    | STG  | NES  |      |
 | 坦克大战           | Battle City | STG  | NES  |      |
 | 赤色要塞           | Jackal   | STG  | NES  |      |
-| 雪人兄弟           | Snow Bros  | ACT、NEOGEO  | NES  |      |
+| 雪人兄弟           | Snow Bros  | ACT  | NES、NEOGEO  |      |
 | 沙罗曼蛇           | Salamander | FLY  | NES  |      |
 | 松鼠大作战         | Chip 'n Dale Rescue Rangers | AVG  | NES  |      |
 | 松鼠大作战II       | Chip 'n Dale Rescue Rangers II | AVG  | NES  |      |
@@ -93,29 +93,28 @@
 | 街头霸王系列       | Street Fighter | FTG | NEOGEO | |
 | 寺魂系列           | Samurai Spirits | FTG | NEOGEO | |
 | 圆桌骑士           | Knights of the Round Table | ACT | NEOGEO | |
-| 落日骑士           |  | | NEOGEO | |
-| 恐龙快打           |  | | NEOGEO | |
-| 三国志 |  | | NEOGEO | |
-| 名将 |  | | NEOGEO | |
-| 铁钩船长 |  | | NEOGEO | |
-| 变身忍者 |  | | NEOGEO | |
-| 快大旋风系列 |  | | NEOGEO | |
-| 忍者棒球 |  | | NEOGEO | |
-| 三国战纪 |  | | NEOGEO | |
-| 吸尘器小子 |  | | NEOGEO | |
-| 西游释厄传 |  | | | |
-| 惩罚者 |  | | | |
-| 豪血寺一族 |  | | | |
-| 打击者 1945 |  | | | |
-| 饿狼传说 |  | | | |
-| 月华剑士 |  | | | |
-| 荒野大镖客 |  | | | |
-| 战斧 |  | | | |
-| 三个奇迹 |  | | | |
-| 龙与地下城 |  | | | |
-| 龙王战士 |  | | | |
-| 战国之刃 |  | | | |
-| 雷电 |  | | | |
-| 铁拳 |  | | | |
+| 落日骑士           | Sunset Riders | STG | NEOGEO | |
+| 恐龙快打           | Cadillacs and Dinosaurs | ACT | NEOGEO | |
+| 三国志             | Warriors of Fate | ACT | NEOGEO | |
+| 名将               | Captain Commando | ACT | NEOGEO | |
+| 铁钩船长           | Hook | ACT | NEOGEO | |
+| 变身忍者           | Shadow Force:Henshin Ninja | ACT | NEOGEO | |
+| 快打旋风系列       | Final Fight | ACT | NEOGEO | |
+| 忍者棒球           | Ninja Baseball Batman | ACT | NEOGEO | |
+| 三国战纪           | Knights of Valour | ACT | NEOGEO | |
+| 吸尘器小子         | Jumping Pop | ACT | NEOGEO | |
+| 西游释厄传         | Oriental Legend | ACT | | |
+| 惩罚者             | The Punisher | ACT | | |
+| 豪血寺一族         | Power Instinct | FTG | | |
+| 打击者1945         | Strikers 1945 | FLY | | |
+| 饿狼传说           | Fatal Fury | FTG | | |
+| 月华剑士           | The Last Blade | FTG | | |
+| 战斧               | Golden Axe | ACT | | |
+| 三个奇迹           | Three Wonders | ACT、FLY、PZL | | |
+| 龙与地下城         |  | | | |
+| 龙王战士           | The King of Dragons | ACT | | |
+| 战国之刃           | Sengoku Blade: Sengoku Ace Episode II | FLY | | |
+| 雷电               | Raiden | FLY | | |
+| 铁拳               | Tekken | FTG | | |
 |  |  | | | |
 |  |  | | | |
