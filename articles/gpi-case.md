@@ -33,7 +33,7 @@
 | SLG      | 策略游戏             |      |
 | MOBA     | 多人在线战术竞技游戏 |      |
 | MUG      | 音乐游戏             |      |
-| PUZ      | 益智游戏             |      |
+| PZL      | 益智游戏             |      |
 | RAC      | 竞速游戏             |      |
 | SPG      | 体育游戏             |      |
 | STG      | 动作射击游戏         |      |
@@ -59,33 +59,33 @@
 | 热血系列           |            | FTG、SPG | NES  |      |
 | 脱狱               | Prisoners of War | STG  | NES  |      |
 | 功夫               | YieArKung-Fu | FTG  | NES  |      |
-| 冒险岛             |              | AVG  | NES  |      |
+| 冒险岛             | Hudson's Adventure Island | AVG  | NES  |      |
 | 忍者神龟系列       | Teenage Mutant Ninja Turtles | ACT  | NES  |      |
 | 星之卡比           | Kirby  | ACT  | NES  |      |
 | 俄罗斯方块         | Tetris | PZL  | NES | |
 | 敲冰块             | Ice Climber | | NES | |
-| 荒野大镖客 | Gun.Smoke | | NES | |
-| 双截龙 | Double Dragon | | NES | |
-| 绿色兵团 | Green Beret | | NES | |
-| 洛克人 | Rockman | | NES、GBA | |
-| 恶魔城 | Castlevania | | NES、GBA | |
-| 怒之铁拳 | Streets of Rage | | MD | |
-| 永远的伊苏5 |  | | SNES | |
-| 盖亚幻想纪 |  | | SNES | |
-| 天地创造 |  | | SNES | |
-| 塞尔达传说 |  | | SNES | |
+| 荒野大镖客 | Gun.Smoke | STG | NES | |
+| 双截龙 | Double Dragon | ACT       | NES | |
+| 绿色兵团 | Green Beret | ACT | NES | |
+| 洛克人 | Rockman | ACT | NES、GBA | |
+| 恶魔城 | Castlevania | ACT、ARPG | NES、GBA | |
+| 怒之铁拳 | Streets of Rage | ACT | MD | |
+| 永远的伊苏5 | Ys Eternal | ARPG | SNES | |
+| 盖亚幻想纪 | Illusion of Gaia | ARPG | SNES | |
+| 天地创造 | Terranigma | ARPG | SNES | |
+| 塞尔达传说 | The Legend of Zelda | ARPG | SNES | |
 | 永远的伊苏系列 |  | | PSP | |
-| 最终幻想 |  | | PSP | |
-| 樱花大战 |  | | PSP | |
-| 战神 |  | | PSP | |
-| 鬼武者 |  | | PSP | |
-| 怪物猎人 |  | | PSP | |
-| 生化危机 |  | | PSX | |
-| 拳皇系列 |  | | NEOGEO | |
-| 合金弹头系列 |  | | NEOGEO | |
-| 街头霸王系列 |  | | NEOGEO | |
-| 寺魂系列 |  | | NEOGEO | |
-| 圆桌骑士 |  | | NEOGEO | |
+| 最终幻想 | Final Fantasy | RPG | PSP | |
+| 樱花大战 | Sakura Wars | SLG、LVG | PSP | |
+| 战神 | God Of War | ARPG | PSP | |
+| 鬼武者 | Onimusha | AVG | PSP | |
+| 怪物猎人 | Monster Hunter | ARPG | PSP | |
+| 生化危机 | Resident Evil | | PSX | |
+| 拳皇系列 | The King Of Fighters | FTG | NEOGEO | |
+| 合金弹头系列 | Metal Slug | STG | NEOGEO | |
+| 街头霸王系列 | Street Fighter | FTG | NEOGEO | |
+| 寺魂系列 | Samurai Spirits | FTG | NEOGEO | |
+| 圆桌骑士 | Knights of the Round Table | ACT | NEOGEO | |
 | 落日骑士 |  | | NEOGEO | |
 | 恐龙快打 |  | | NEOGEO | |
 | 三国志 |  | | NEOGEO | |
