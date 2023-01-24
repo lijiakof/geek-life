@@ -48,46 +48,53 @@
 
 | 名称               | 英文           | 类型 | 平台 | 封面 |
 | ------------------ | ---- | ---- | ---- | ---- |
-| 超级马里奥兄弟系列 | Super Mario Bros | AVG  | NES  |      |
+| 超级马里奥兄弟     | Super Mario Bros | AVG  | NES  |      |
 | 魂斗罗             | Contra    | STG  | NES  |      |
 | 坦克大战           | Battle City | STG  | NES  |      |
 | 赤色要塞           | Jackal   | STG  | NES  |      |
-| 雪人兄弟           | Snow Bros  | ACT  | NES  |      |
+| 雪人兄弟           | Snow Bros  | ACT、NEOGEO  | NES  |      |
 | 沙罗曼蛇           | Salamander | FLY  | NES  |      |
 | 松鼠大作战         | Chip 'n Dale Rescue Rangers | AVG  | NES  |      |
+| 松鼠大作战II       | Chip 'n Dale Rescue Rangers II | AVG  | NES  |      |
 | 马戏团             | Circus Charlie | ETC  | NES  |      |
 | 热血系列           |            | FTG、SPG | NES  |      |
 | 脱狱               | Prisoners of War | STG  | NES  |      |
 | 功夫               | YieArKung-Fu | FTG  | NES  |      |
 | 冒险岛             | Hudson's Adventure Island | AVG  | NES  |      |
-| 忍者神龟系列       | Teenage Mutant Ninja Turtles | ACT  | NES  |      |
+| 忍者神龟           | Teenage Mutant Ninja Turtles | ACT  | NES  |      |
+| 忍者神龟II         | Teenage Mutant Ninja Turtles II | ACT  | NES  |      |
 | 星之卡比           | Kirby  | ACT  | NES  |      |
 | 俄罗斯方块         | Tetris | PZL  | NES | |
+| 俄罗斯方块II       | Tetris II | PZL  | NES | |
 | 敲冰块             | Ice Climber | | NES | |
-| 荒野大镖客 | Gun.Smoke | STG | NES | |
-| 双截龙 | Double Dragon | ACT       | NES | |
-| 绿色兵团 | Green Beret | ACT | NES | |
-| 洛克人 | Rockman | ACT | NES、GBA | |
-| 恶魔城 | Castlevania | ACT、ARPG | NES、GBA | |
-| 怒之铁拳 | Streets of Rage | ACT | MD | |
-| 永远的伊苏5 | Ys Eternal | ARPG | SNES | |
-| 盖亚幻想纪 | Illusion of Gaia | ARPG | SNES | |
-| 天地创造 | Terranigma | ARPG | SNES | |
-| 塞尔达传说 | The Legend of Zelda | ARPG | SNES | |
-| 永远的伊苏系列 |  | | PSP | |
-| 最终幻想 | Final Fantasy | RPG | PSP | |
-| 樱花大战 | Sakura Wars | SLG、LVG | PSP | |
-| 战神 | God Of War | ARPG | PSP | |
-| 鬼武者 | Onimusha | AVG | PSP | |
-| 怪物猎人 | Monster Hunter | ARPG | PSP | |
-| 生化危机 | Resident Evil | | PSX | |
-| 拳皇系列 | The King Of Fighters | FTG | NEOGEO | |
-| 合金弹头系列 | Metal Slug | STG | NEOGEO | |
-| 街头霸王系列 | Street Fighter | FTG | NEOGEO | |
-| 寺魂系列 | Samurai Spirits | FTG | NEOGEO | |
-| 圆桌骑士 | Knights of the Round Table | ACT | NEOGEO | |
-| 落日骑士 |  | | NEOGEO | |
-| 恐龙快打 |  | | NEOGEO | |
+| 荒野大镖客         | Gun.Smoke | STG | NES | |
+| 双截龙             | Double Dragon | ACT       | NES | |
+| 双截龙II           | Double Dragon II | ACT       | NES | |
+| 双截龙III          | Double Dragon III | ACT       | NES | |
+| 绿色兵团           | Green Beret | ACT | NES | |
+| 洛克人             | Rockman | ACT | NES、GBA | |
+| 恶魔城             | Castlevania | ACT、ARPG | NES、GBA | |
+| 怒之铁拳           | Streets of Rage | ACT | MD | |
+| 怒之铁拳II         | Streets of Rage II | ACT | MD | |
+| 怒之铁拳III        | Streets of Rage III | ACT | MD | |
+| 盖亚幻想纪         | Illusion of Gaia | ARPG | SNES | |
+| 天地创造           | Terranigma | ARPG | SNES | |
+| 塞尔达传说         | The Legend of Zelda | ARPG | SNES | |
+| 永远的伊苏V        | Ys Eternal V | ARPG | SNES | |
+| 永远的伊苏VI       | Ys Eternal VI | | PSP | |
+| 最终幻想           | Final Fantasy | RPG | PSP | |
+| 樱花大战           | Sakura Wars | SLG、LVG | PSP | |
+| 战神               | God Of War | ARPG | PSP | |
+| 鬼武者             | Onimusha | AVG | PSP | |
+| 怪物猎人           | Monster Hunter | ARPG | PSP | |
+| 生化危机           | Resident Evil | | PSX | |
+| 拳皇系列           | The King Of Fighters | FTG | NEOGEO | |
+| 合金弹头系列       | Metal Slug | STG | NEOGEO | |
+| 街头霸王系列       | Street Fighter | FTG | NEOGEO | |
+| 寺魂系列           | Samurai Spirits | FTG | NEOGEO | |
+| 圆桌骑士           | Knights of the Round Table | ACT | NEOGEO | |
+| 落日骑士           |  | | NEOGEO | |
+| 恐龙快打           |  | | NEOGEO | |
 | 三国志 |  | | NEOGEO | |
 | 名将 |  | | NEOGEO | |
 | 铁钩船长 |  | | NEOGEO | |
@@ -95,7 +102,6 @@
 | 快大旋风系列 |  | | NEOGEO | |
 | 忍者棒球 |  | | NEOGEO | |
 | 三国战纪 |  | | NEOGEO | |
-| 雪人兄弟 |  | | NEOGEO | |
 | 吸尘器小子 |  | | NEOGEO | |
 | 西游释厄传 |  | | | |
 | 惩罚者 |  | | | |
