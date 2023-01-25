@@ -48,30 +48,38 @@
 
 | 名称               | 英文           | 类型 | 平台 | 封面 |
 | ------------------ | ---- | ---- | ---- | ---- |
-| 超级马里奥兄弟     | Super Mario Bros | AVG  | NES  |      |
-| 魂斗罗             | Contra    | STG  | NES  |      |
-| 坦克大战           | Battle City | STG  | NES  |      |
-| 赤色要塞           | Jackal   | STG  | NES  |      |
-| 雪人兄弟           | Snow Bros  | ACT  | NES、NEOGEO  |      |
-| 沙罗曼蛇           | Salamander | FLY  | NES  |      |
-| 松鼠大作战         | Chip 'n Dale Rescue Rangers | AVG  | NES  |      |
-| 松鼠大作战II       | Chip 'n Dale Rescue Rangers II | AVG  | NES  |      |
+| [OK]超级马里奥兄弟 | Super Mario Bros | AVG  | NES  |      |
+| [OK]超级马里奥兄弟II | Super Mario Bros II | AVG  | NES  |      |
+| [OK]超级马里奥兄弟III | Super Mario Bros III | AVG  | NES  |      |
+| [OK]魂斗罗         | Contra    | STG  | NES  |      |
+| [OK]魂斗罗I        | Contra II | STG  | NES  |      |
+| [OK]魂斗罗II       | Contra III| STG  | NES  |      |
+| [OK]坦克大战       | Battle City | STG  | NES  |      |
+| [OK]赤色要塞       | Jackal   | STG  | NES  |      |
+| [OK]雪人兄弟      | Snow Bros  | ACT  | NES、MAME |      |
+| [OK]沙罗曼蛇       | Salamander | FLY  | NES  |      |
+| [OK]松鼠大作战     | Chip 'n Dale Rescue Rangers | AVG  | NES  |      |
+| [OK]松鼠大作战II   | Chip 'n Dale Rescue Rangers II | AVG  | NES  |      |
 | 马戏团             | Circus Charlie | ETC  | NES  |      |
 | 热血系列           |            | FTG、SPG | NES  |      |
-| 脱狱               | Prisoners of War | STG  | NES  |      |
-| 功夫               | YieArKung-Fu | FTG  | NES  |      |
-| 冒险岛             | Hudson's Adventure Island | AVG  | NES  |      |
-| 忍者神龟           | Teenage Mutant Ninja Turtles | ACT  | NES  |      |
-| 忍者神龟II         | Teenage Mutant Ninja Turtles II | ACT  | NES  |      |
-| 星之卡比           | Kirby  | ACT  | NES  |      |
-| 俄罗斯方块         | Tetris | PZL  | NES | |
+| [OK]脱狱          | Prisoners of War | STG  | NES、MAME |      |
+| [OK]功夫           | YieArKung-Fu | FTG  | NES  |      |
+| [OK]冒险岛         | Hudson's Adventure Island | AVG  | NES  |      |
+| [OK]冒险岛II       | Hudson's Adventure Island II | AVG  | NES  |      |
+| [OK]冒险岛III      | Hudson's Adventure Island III | AVG  | NES  |      |
+| [OK]冒险岛IV       | Hudson's Adventure Island IV | AVG  | NES  |      |
+| [OK]忍者神龟       | Teenage Mutant Ninja Turtles | ACT  | NES  |      |
+| [OK]忍者神龟II     | Teenage Mutant Ninja Turtles II | ACT  | NES  |      |
+| [OK]忍者神龟IV     | Teenage Mutant Ninja Turtles IV | ACT  | NES  |      |
+| [OK]星之卡比       | Kirby  | ACT  | NES  |      |
+| [OK]俄罗斯方块     | Tetris | PZL  | NES | |
 | 俄罗斯方块II       | Tetris II | PZL  | NES | |
 | 敲冰块             | Ice Climber | | NES | |
-| 荒野大镖客         | Gun.Smoke | STG | NES | |
-| 双截龙             | Double Dragon | ACT       | NES | |
-| 双截龙II           | Double Dragon II | ACT       | NES | |
-| 双截龙III          | Double Dragon III | ACT       | NES | |
-| 绿色兵团           | Green Beret | ACT | NES | |
+| [OK]荒野大镖客     | Gun.Smoke | STG | NES | |
+| [OK]双截龙        | Double Dragon | ACT       | NES、MAME | |
+| [OK]双截龙II     | Double Dragon II | ACT       | NES、MAME | |
+| [OK]双截龙III    | Double Dragon III | ACT       | NES、MAME | |
+| [OK]绿色兵团       | Green Beret | ACT | NES | |
 | 洛克人             | Rockman | ACT | NES、GBA | |
 | 恶魔城             | Castlevania | ACT、ARPG | NES、GBA | |
 | 怒之铁拳           | Streets of Rage | ACT | MD | |
@@ -81,34 +89,52 @@
 | 天地创造           | Terranigma | ARPG | SNES | |
 | 塞尔达传说         | The Legend of Zelda | ARPG | SNES | |
 | 永远的伊苏V        | Ys Eternal V | ARPG | SNES | |
-| 永远的伊苏VI       | Ys Eternal VI | | PSP | |
+| [OK]永远的伊苏VI       | Ys Eternal VI | | PSP | |
+| [OK]永远的伊苏VII      | Ys Eternal VII | | PSP | |
 | 最终幻想           | Final Fantasy | RPG | PSP | |
 | 樱花大战           | Sakura Wars | SLG、LVG | PSP | |
 | 战神               | God Of War | ARPG | PSP | |
 | 鬼武者             | Onimusha | AVG | PSP | |
 | 怪物猎人           | Monster Hunter | ARPG | PSP | |
 | 生化危机           | Resident Evil | | PSX | |
-| 拳皇系列           | The King Of Fighters | FTG | NEOGEO | |
-| 合金弹头系列       | Metal Slug | STG | NEOGEO | |
-| 街头霸王系列       | Street Fighter | FTG | NEOGEO | |
-| 寺魂系列           | Samurai Spirits | FTG | NEOGEO | |
-| 圆桌骑士           | Knights of the Round Table | ACT | NEOGEO | |
-| 落日骑士           | Sunset Riders | STG | NEOGEO | |
-| 恐龙快打           | Cadillacs and Dinosaurs | ACT | NEOGEO | |
-| 三国志             | Warriors of Fate | ACT | NEOGEO | |
-| 名将               | Captain Commando | ACT | NEOGEO | |
-| 铁钩船长           | Hook | ACT | NEOGEO | |
-| 变身忍者           | Shadow Force:Henshin Ninja | ACT | NEOGEO | |
-| 快打旋风系列       | Final Fight | ACT | NEOGEO | |
-| 忍者棒球           | Ninja Baseball Batman | ACT | NEOGEO | |
-| 三国战纪           | Knights of Valour | ACT | NEOGEO | |
+| [OK]拳皇系列97     | The King Of Fighters 97 | FTG | NEOGEO | |
+| [OK]拳皇系列98     | The King Of Fighters 98 | FTG | NEOGEO | |
+| [OK]拳皇系列99     | The King Of Fighters 99 | FTG | NEOGEO | |
+| [OK]拳皇系列2000   | The King Of Fighters 2000 | FTG | NEOGEO | |
+| [OK]拳皇系列2001   | The King Of Fighters 2001 | FTG | NEOGEO | |
+| [OK]拳皇系列2002   | The King Of Fighters 2002 | FTG | NEOGEO | |
+| [OK]拳皇系列2003   | The King Of Fighters 2003 | FTG | NEOGEO | |
+| [OK]合金弹头       | Metal Slug | STG | NEOGEO | |
+| [OK]合金弹头II       | Metal Slug II  | STG | NEOGEO | |
+| [OK]合金弹头III       | Metal Slug III | STG | NEOGEO | |
+| [OK]合金弹头IV       | Metal Slug IV | STG | NEOGEO | |
+| [OK]合金弹头V       | Metal Slug V | STG | NEOGEO | |
+| [OK]合金弹头X       | Metal Slug X | STG | NEOGEO | |
+| [OK]街头霸王II   | Street Fighter II | FTG | MAME | |
+| [OK]寺魂             | Samurai Spirits | FTG | NEOGEO | |
+| [OK]寺魂II           | Samurai Spirits | FTG | NEOGEO | |
+| [OK]寺魂III           | Samurai Spirits | FTG | NEOGEO | |
+| [OK]寺魂IV           | Samurai Spirits | FTG | NEOGEO | |
+| [OK]寺魂V            | Samurai Spirits | FTG | NEOGEO | |
+| [OK]天外魔境真传     | Kabuki Klash | FTG | NEOGEO | |
+| [OK]圆桌骑士   | Knights of the Round Table | ACT | MAME | |
+| [OK]落日骑士           | Sunset Riders | STG | NEOGEO | |
+| [OK]恐龙快打       | Cadillacs and Dinosaurs | ACT | MAME | |
+| [OK]三国志             | Warriors of Fate | ACT | NEOGEO | |
+| [OK]名将           | Captain Commando | ACT | NEOGEO | |
+| [OK]铁钩船长       | Hook | ACT | MAME | |
+| [OK]变身忍者   | Shadow Force:Henshin Ninja | ACT | MAME | |
+| [DO]快打旋风系列       | Final Fight | ACT | NEOGEO | |
+| [OK]忍者棒球       | Ninja Baseball Batman | ACT | MAME | |
+| [OK]三国战纪 II          | Knights of Valour II | ACT | NEOGEO+PGM | |
 | 吸尘器小子         | Jumping Pop | ACT | NEOGEO | |
-| 西游释厄传         | Oriental Legend | ACT | | |
-| 惩罚者             | The Punisher | ACT | | |
+| [OK]西游释厄传         | Oriental Legend | ACT | NEOGEO+PGM | |
+| [OK]惩罚者             | The Punisher | ACT | MAME | |
 | 豪血寺一族         | Power Instinct | FTG | | |
 | 打击者1945         | Strikers 1945 | FLY | | |
 | 饿狼传说           | Fatal Fury | FTG | | |
-| 月华剑士           | The Last Blade | FTG | | |
+| [OK]月华剑士           | The Last Blade | FTG | NEOGEO | |
+| [OK]月华剑士II           | The Last Blade II | FTG | NEOGEO | |
 | 战斧               | Golden Axe | ACT | | |
 | 三个奇迹           | Three Wonders | ACT、FLY、PZL | | |
 | 龙与地下城         |  | | | |
@@ -117,8 +143,8 @@
 | 雷电               | Raiden | FLY | | |
 | 铁拳               | Tekken | FTG | | |
 | 公路赛车           | Road Fighter | RAC  | NES  |      |
-| 忍者蛙             | Battle Toads | ACT  | NES  |      |
-| 蝙蝠侠 |  | | | |
+| [OK]忍者蛙         | Battle Toads | ACT  | NES  |      |
+| 蝙蝠侠             | Batman | ACT | | |
 | 圣斗士星矢 |  | | | |
 | 漫画地带 | Comix Zone | ACT | | |
 | xx | Guardian Heroes | ACT | | |
