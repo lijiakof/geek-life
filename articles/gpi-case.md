@@ -116,5 +116,11 @@
 | 战国之刃           | Sengoku Blade: Sengoku Ace Episode II | FLY | | |
 | 雷电               | Raiden | FLY | | |
 | 铁拳               | Tekken | FTG | | |
-|  |  | | | |
-|  |  | | | |
+| 公路赛车           | Road Fighter | RAC  | NES  |      |
+| 忍者蛙             | Battle Toads | ACT  | NES  |      |
+| 蝙蝠侠 |  | | | |
+| 圣斗士星矢 |  | | | |
+| 漫画地带 | Comix Zone | ACT | | |
+| xx | Guardian Heroes | ACT | | |
+| xx | Zero Team 2000 | ACT | | |
+| xx | Sengoku | ACT | | |
