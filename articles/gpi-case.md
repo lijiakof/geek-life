@@ -5,6 +5,7 @@
 * https://support.retroflag.com/
 * https://github.com/RetroFlag/retroflag-picase
 * https://www.thecoverproject.net/
+* https://gamesdb.launchbox-app.com/
 * root | recalboxroot
 * 退出游戏：HOME+B
 * 设置
@@ -52,8 +53,8 @@
 | [OK]超级马里奥兄弟II | Super Mario Bros II | AVG  | NES  |      |
 | [OK]超级马里奥兄弟III | Super Mario Bros III | AVG  | NES  |      |
 | [OK]魂斗罗         | Contra    | STG  | NES  |      |
-| [OK]魂斗罗I        | Contra II | STG  | NES  |      |
-| [OK]魂斗罗II       | Contra III| STG  | NES  |      |
+| [OK]魂斗罗II-超级魂斗罗        | Super Contra | STG  | NES  |      |
+| [OK]魂斗罗力量       | Contra Force| STG  | NES  |      |
 | [OK]坦克大战       | Battle City | STG  | NES  |      |
 | [OK]赤色要塞       | Jackal   | STG  | NES  |      |
 | [OK]雪人兄弟      | Snow Bros  | ACT  | NES、MAME |      |
@@ -63,7 +64,7 @@
 | 马戏团             | Circus Charlie | ETC  | NES  |      |
 | 热血系列           |            | FTG、SPG | NES  |      |
 | [OK]脱狱          | Prisoners of War | STG  | NES、MAME |      |
-| [OK]功夫           | YieArKung-Fu | FTG  | NES  |      |
+| [OK]功夫           | Yie Ar Kung-Fu | FTG  | NES  |      |
 | [OK]冒险岛         | Hudson's Adventure Island | AVG  | NES  |      |
 | [OK]冒险岛II       | Hudson's Adventure Island II | AVG  | NES  |      |
 | [OK]冒险岛III      | Hudson's Adventure Island III | AVG  | NES  |      |
@@ -82,9 +83,9 @@
 | [OK]绿色兵团       | Green Beret | ACT | NES | |
 | 洛克人             | Rockman | ACT | NES、GBA | |
 | 恶魔城             | Castlevania | ACT、ARPG | NES、GBA | |
-| 怒之铁拳           | Streets of Rage | ACT | MD | |
-| 怒之铁拳II         | Streets of Rage II | ACT | MD | |
-| 怒之铁拳III        | Streets of Rage III | ACT | MD | |
+| [OK]怒之铁拳           | Streets of Rage | ACT | MD | |
+| [OK]怒之铁拳II         | Streets of Rage II | ACT | MD | |
+| [OK]怒之铁拳III        | Streets of Rage III | ACT | MD | |
 | 盖亚幻想纪         | Illusion of Gaia | ARPG | SNES | |
 | 天地创造           | Terranigma | ARPG | SNES | |
 | 塞尔达传说         | The Legend of Zelda | ARPG | SNES | |
@@ -125,13 +126,15 @@
 | [OK]铁钩船长       | Hook | ACT | MAME | |
 | [OK]变身忍者   | Shadow Force:Henshin Ninja | ACT | MAME | |
 | [DO]快打旋风系列       | Final Fight | ACT | NEOGEO | |
-| [OK]忍者棒球       | Ninja Baseball Batman | ACT | MAME | |
+| [OK]忍者棒球       | Ninja Baseball Bat Man | ACT | MAME | |
 | [OK]三国战纪 II          | Knights of Valour II | ACT | NEOGEO+PGM | |
 | 吸尘器小子         | Jumping Pop | ACT | NEOGEO | |
 | [OK]西游释厄传         | Oriental Legend | ACT | NEOGEO+PGM | |
 | [OK]惩罚者             | The Punisher | ACT | MAME | |
 | 豪血寺一族         | Power Instinct | FTG | | |
-| 打击者1945         | Strikers 1945 | FLY | | |
+| [OK]打击者1945         | Strikers 1945 | FLY | MAME | |
+| [OK]打击者1945 II         | Strikers 1945 II | FLY | MAME | |
+| [OK]打击者1945 III      | Strikers 1945 III | FLY | MAME | |
 | 饿狼传说           | Fatal Fury | FTG | | |
 | [OK]月华剑士           | The Last Blade | FTG | NEOGEO | |
 | [OK]月华剑士II           | The Last Blade II | FTG | NEOGEO | |
@@ -146,7 +149,9 @@
 | [OK]忍者蛙         | Battle Toads | ACT  | NES  |      |
 | 蝙蝠侠             | Batman | ACT | | |
 | 圣斗士星矢 |  | | | |
-| 漫画地带 | Comix Zone | ACT | | |
+| 影子传说         |  | ACT  | NES  |      |
+| 幽游白书         |  | ACT  | NES  |      |
+| [OK]漫画地带 | Comix Zone | ACT | MD | |
 | xx | Guardian Heroes | ACT | | |
 | xx | Zero Team 2000 | ACT | | |
 | xx | Sengoku | ACT | | |
