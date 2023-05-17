@@ -8,5 +8,3 @@
 * [GPi CASE 树莓派游戏掌机](./articles/gpi-case.md)
 * [一些葡萄酒的知识](./articles/wine-abc.md)
 * [个人收藏](./articles/favorites.md)
-
-hello
