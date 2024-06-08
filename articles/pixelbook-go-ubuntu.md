@@ -79,6 +79,9 @@ Clash 在 Ubuntu 上的配置比较复杂，不仅要对 Clash 进行配置，�
   * `sudo apt install zsh`
   * `chsh -s /bin/zsh`
 * 微信
+  * https://software.openkylin.top/openkylin/yangtze/pool/all/
+    * wechat-beta_1.0.0.236_amd64.deb
+    * sudo dpkg -i wechat-beta_1.0.0.236_amd64.deb
   * <https://www.ubuntukylin.com/applications/106-cn.html>
   * 微信（Wine）:<https://www.ubuntukylin.com/applications/119-cn.html>
 * Flameshot 截屏
