@@ -75,6 +75,9 @@ Clash 在 Ubuntu 上的配置比较复杂，不仅要对 Clash 进行配置，�
   * 手动安装：
     * 官网下载：<https://code.visualstudio.com/>
     * `sudo apt install code_1.73.1-1667967334_amd64.deb`
+* Git
+  * sudo apt install git
+  * ssh-keygen -t ed25519 -C "your_email@example.com"
 * zsh
   * `sudo apt install zsh`
   * `chsh -s /bin/zsh`
