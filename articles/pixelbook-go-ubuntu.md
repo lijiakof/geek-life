@@ -35,6 +35,7 @@ Ubuntu 在输入法的支持上做得还不错，非常方便。
 ### Gnome 扩展插件
 
 * 安装：Ubuntu Software -> Extensions
+  * sudo apt install gnome-shell-extensions
 * 官网：<https://extensions.gnome.org/>
 * Chrome 插件：GNOME Shell integration
 * 插件：
@@ -48,9 +49,14 @@ Ubuntu 在输入法的支持上做得还不错，非常方便。
 使用 Clash for Windows 图形界面，但是在 Ubuntu 需要纯手动安装。
 
 * 下载：<https://github.com/Fndroid/clash_for_windows_pkg/releases>
-  * Clash.for.Windows-0.20.7-x64-linux.tar.gz
+  * Clash.for.Windows-0.20.39-x64-linux.tar.gz
 * 解压：将文件内容解压到`/opt/clash-for-windows-bin`
-* 运行：通过命令行进入到安装目录，直接运行`./cfw`
+* 运行：通过命令行进入到安装目录，直接运行`./cfw` 会报错，要做成自定义程序启动图标来启动，并且标注`--no-sandbox`启动方式
+  * Exec=/opt/clash-for-ui/cfw --no-sandbox %U
+* Server Mode
+* 配置本机代理：设置->网络->代理
+  * HTTP  代理：127.0.0.1:7890
+  * HTTPS 代理：127.0.0.1:7890
 
 ### 配置：TODO
 
