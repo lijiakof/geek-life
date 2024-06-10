@@ -21,6 +21,10 @@
 
 # 系统设置
 
+* gnome-shell-extensions
+* gnome-tweaks
+
+TODO:
 
 
 # 常用软件
@@ -86,3 +90,24 @@ TODO:
 
 
 # 自定义应用启动图标
+
+有一些应用不能通过 `apt` 命令来安装，这样每次启动应用需要我们通过命令行来操作，使用起来不太方便，但是我们可以通过自定义程序启动图标来让这些应用和普通桌面应用一样。
+
+* 进入应用程序文件夹 `cd /usr/share/applications/`
+* 创建应用桌面文件 `your_app.desktop` ,文件内容如下
+* 设置权限 `sudo chmod 744 your_app.desktop`
+* 重启系统
+
+your_app.desktop 文件内容：
+
+```text
+[Desktop Entry]
+Encoding=UTF-8
+Name=Clash
+Comment=Clash for Windows
+Exec=/opt/clash-for-windows-bin/cfw 
+Icon=/opt/clash-for-windows-bin/clash-icon.png
+Terminal=false
+StartupNotify=true
+Type=Application
+```
