@@ -39,33 +39,34 @@ TODO:
 
 
 ## Clash
-TODO:
-使用 Clash for Windows 图形界面，但是在 Ubuntu 需要纯手动安装。
+使用 Clash for Windows 带图形界面的科学上网工具，但是在 Ubuntu 需要纯手动安装。
 
 * 下载地址：<https://archive.org/download/clash_for_windows_pkg>
   * Clash.for.Windows-0.20.39-x64-linux.tar.gz
-* 解压：将文件内容解压到`/opt/clash-for-windows`
-* 运行：通过命令行进入到安装目录，直接运行`./cfw` 会报错，要做成自定义程序启动图标来启动，并且标注`--no-sandbox`启动方式
+* 解压程序：将文件内容解压到`/opt/clash-for-windows`
+* 运行程序：通过命令行进入到安装目录，直接运行`./cfw` 会报错，要做成自定义程序启动图标来启动，并且标注`--no-sandbox`启动方式
   * Exec=/opt/clash-for-windows/cfw --no-sandbox %U
-* Server Mode
-* 配置本机代理：设置->网络->代理
+  * 如何制作程序启动图标，查看文档“自定义应用启动图标”这一章节
+* 虚拟网卡安装：General->Server Mode->Manage->Install
+* 配置代理：设置->网络->代理
   * HTTP  代理：127.0.0.1:7890
   * HTTPS 代理：127.0.0.1:7890
+* 参考文档：https://docs.gtk.pw/
 
 ## Chrome
 
 * 手动安装：
-  * `wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb`
-  * `sudo apt install ./google-chrome-stable_current_amd64.deb`
+  * 下载地址：https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  * 命令安装：`sudo apt install ./google-chrome-stable_current_amd64.deb`
 * 命令安装：`sudo apt install google-chrome-stable`
 
 ## VSCode
 
-* 应用中心：
-  * 通过 Ubuntu 应用中心安装的 VSCode 是阉割版本，无法输入中文汉字
 * 手动安装：
   * 官网下载：<https://code.visualstudio.com/>
-  * `sudo apt install code_1.90.0-1717531825_amd64.deb`
+  * 命令安装：`sudo apt install code_1.90.0-1717531825_amd64.deb`
+* 应用中心：
+  * 通过 Ubuntu 应用中心安装的 VSCode 是阉割版本，无法输入中文汉字
 
 ## Zsh
 
@@ -84,7 +85,7 @@ TODO:
 * 手动安装：
   * 下载地址：https://software.openkylin.top/openkylin/yangtze/pool/all/
   * 安装文件：wechat-beta_1.0.0.236_amd64.deb
-  * `sudo dpkg -i wechat-beta_1.0.0.236_amd64.deb`
+  * 命令安装：`sudo dpkg -i wechat-beta_1.0.0.236_amd64.deb`
 
 ## Etcher
 
