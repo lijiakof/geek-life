@@ -73,6 +73,15 @@ TODO:
 * 命令安装：
   * `sudo apt install zsh`
   * `chsh -s /bin/zsh`
+* 终端美化
+  * 终端首选项 -> 颜色 -> 文本和背景颜色 -> 内置方案：GNOME 暗色
+
+### Oh My Zsh
+
+* 官网地址：https://ohmyz.sh/
+* 命令安装：sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+* 修改皮肤：vim ~/.zshrc
+  * ZSH_THEME="afowler"
 
 ## Git
 
