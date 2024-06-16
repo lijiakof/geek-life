@@ -133,7 +133,29 @@ TODO:
 * 手动安装：
   * 下载地址：https://im.qq.com/linuxqq/index.shtml
   * 安装文件：QQ_3.2.9_240606_amd64_01.deb
-  * 命令安装：`sudo apt install QQ_3.2.9_240606_amd64_01.deb`
+  * 命令安装：`sudo apt install ./QQ_3.2.9_240606_amd64_01.deb`
+
+## QQ 音乐
+
+* 手动安装
+  * 下载地址：https://y.qq.com/download/download.html
+  * 安装文件：qqmusic_1.1.5_amd64_.deb
+  * 安装命令：`sudo apt install ./qqmusic_1.1.5_amd64_.deb`
+  * 注意：需要修改配置 `/usr/share/applications/qqmusic.desktop` 文件才能启动
+
+```
+[Desktop Entry]
+Name=QQMusic
+Exec=/opt/qqmusic/qqmusic --no-sandbox %U
+Terminal=false
+Type=Application
+Icon=qqmusic
+StartupWMClass=qqmusic
+Comment=Tencent QQMusic
+Categories=AudioVideo;Audio;Player;
+MimeType=application/x-ogg;application/ogg;audio/x-vorbis+ogg;audio/vorbis;audio/x-vorbis;audio/x-scpls;audio/x-mp3;audio/x-mpeg;audio/mpeg;audio/x-mpegurl;audio/x-flac;audio/mp4;audio/x-it;audio/x-mod;audio/x-s3m;audio/x-stm;audio/x-xm;
+Keywords=Audio;Song;MP3;CD;Podcast;MTP;iPod;Playlist;Last.fm;UPnP;DLNA;Radio;
+```
 
 ## VLC 播放器
 
