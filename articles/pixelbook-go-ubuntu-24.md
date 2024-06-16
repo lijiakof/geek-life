@@ -2,13 +2,9 @@
 
 最近 Ubuntu 升级到了 24.04 版本，珍藏很久的 Pixelbook 也需要来一次大升级，未来将作为创作的主力机。
 
-
-
 ## 系统安装
 
 系统安装还是老步骤，在 Ubuntu 官网下载最新安装镜像包，用`balena-etcher` 工具做好启动盘，设置好 BIOS 通过 U 盘启动，接下来就是按照提示一步一步安装就行了。本次安装选择的是中文版本，在本地化方面体验会好一些。
-
-
 
 ## 软件安装
 
@@ -18,14 +14,12 @@
 * 命令行安装：通过 `sudo apt install <app name>` 命令来安装
 * 手动安装：到软件官网下载 `.deb` 软件包，然后通过 `sudo apt install <app path>` 命令来安装
 
-
 # 系统设置
 
 * gnome-shell-extensions
 * gnome-tweaks
 
 TODO:
-
 
 # 常用软件
 
@@ -39,7 +33,6 @@ TODO:
 * QQ
 * MPV 播放器
 * Etcher
-
 
 ## Clash
 使用 Clash for Windows 带图形界面的科学上网工具，但是在 Ubuntu 需要纯手动安装。
@@ -85,7 +78,6 @@ TODO:
 * 命令安装：sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 * 修改皮肤：vim ~/.zshrc
   * ZSH_THEME="afowler"
-
 
 ### Neofetch 命令行系统显示
 
