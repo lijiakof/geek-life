@@ -165,7 +165,7 @@ Keywords=Audio;Song;MP3;CD;Podcast;MTP;iPod;Playlist;Last.fm;UPnP;DLNA;Radio;
 
 * 手动安装
   * 下载地址：https://etcher.balena.io/
-  * 命令安装：`sudo dpkg -i balena-etcher_1.19.21_amd64.deb`
+  * 命令安装：`sudo dpkg -i ./balena-etcher_1.19.21_amd64.deb`
 
 
 # 自定义应用启动图标
