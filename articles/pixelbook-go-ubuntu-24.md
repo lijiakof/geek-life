@@ -37,7 +37,7 @@ TODO:
 * Nodejs
 * 微信
 * QQ
-* VLC 播放器
+* MPV 播放器
 * Etcher
 
 
@@ -157,11 +157,15 @@ MimeType=application/x-ogg;application/ogg;audio/x-vorbis+ogg;audio/vorbis;audio
 Keywords=Audio;Song;MP3;CD;Podcast;MTP;iPod;Playlist;Last.fm;UPnP;DLNA;Radio;
 ```
 
-## VLC 播放器
+## MPV 播放器
 
 * 应用中心安装
 
 ## Etcher
+
+* 手动安装
+  * 下载地址：https://etcher.balena.io/
+  * 命令安装：`sudo dpkg -i balena-etcher_1.19.21_amd64.deb`
 
 
 # 自定义应用启动图标
@@ -186,3 +190,7 @@ Terminal=false
 StartupNotify=true
 Type=Application
 ```
+
+# 声卡问题
+
+非常感谢 GitHub 的 Geeker，这位叫做 WeirdTreeThing 的解决方案，完美解决 Chromebook 安装 Linux 的声卡问题，再次感恩。 https://github.com/WeirdTreeThing/chromebook-linux-audio
