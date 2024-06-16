@@ -34,7 +34,10 @@ TODO:
 * VSCode
 * Zsh
 * Git
+* Nodejs
 * 微信
+* QQ
+* VLC 播放器
 * Etcher
 
 
@@ -83,11 +86,40 @@ TODO:
 * 修改皮肤：vim ~/.zshrc
   * ZSH_THEME="afowler"
 
+
+### Neofetch 命令行系统显示
+
+* 命令安装：
+  * `sudo apt install neofetch`
+* 设置启动时运行：
+  * echo "" >> ~/.zshrc
+  * echo "# Automatically run neofetch on startup" >> ~/.zshrc
+  * echo "neofetch" >> ~/.zshrc
+  * source ~/.zshrc 
+
 ## Git
 
 * 命令安装：
   * `sudo apt install git`
   * `ssh-keygen -t ed25519 -C "your_email@example.com"`
+
+## Nodejs
+
+* 命令安装：
+  * `sudo apt install nodejs`
+
+### NVM
+
+* 手动安装：
+  * 官网地址：https://github.com/nvm-sh/nvm
+  * `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash`
+  * export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+  * [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads 
+* 常用命令：
+  * nvm list
+  * nvm install 18.20.2
+  * nvm use 18.20.2
+  * nvm alias default 20.14
 
 ## 微信
 
@@ -95,6 +127,17 @@ TODO:
   * 下载地址：https://software.openkylin.top/openkylin/yangtze/pool/all/
   * 安装文件：wechat-beta_1.0.0.236_amd64.deb
   * 命令安装：`sudo dpkg -i wechat-beta_1.0.0.236_amd64.deb`
+
+## QQ
+
+* 手动安装：
+  * 下载地址：https://im.qq.com/linuxqq/index.shtml
+  * 安装文件：QQ_3.2.9_240606_amd64_01.deb
+  * 命令安装：`sudo apt install QQ_3.2.9_240606_amd64_01.deb`
+
+## VLC 播放器
+
+* 应用中心安装
 
 ## Etcher
 
