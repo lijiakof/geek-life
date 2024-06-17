@@ -21,9 +21,21 @@
 
 TODO:
 
+# 快捷键设置
+
+* Mac 键映射
+  * 优化（Tweaks）：Keyboard & Mouse -> Additional Layout Options -> Alt and Win behavior -> Ctrl is mapped to Alt, Alt to Win
+* 设置 -> 键盘 -> 键盘快捷键
+  * 声音和媒体：
+    * 播放（或播放/暂停）
+    * 减少音量
+    * 增大音量
+    * 音量静音/取消静音
+* 屏幕亮度
+
 # 常用软件
 
-* Clash
+* Clash 
 * Chrome
 * VSCode
 * Zsh
