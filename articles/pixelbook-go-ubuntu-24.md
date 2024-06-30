@@ -161,6 +161,15 @@ MimeType=application/x-ogg;application/ogg;audio/x-vorbis+ogg;audio/vorbis;audio
 Keywords=Audio;Song;MP3;CD;Podcast;MTP;iPod;Playlist;Last.fm;UPnP;DLNA;Radio;
 ```
 
+## CMUS 音乐播放器
+* 命令安装
+  * `sudo apt install cmus`
+* 常用命令
+  * 添加音乐：:a /your/music/path
+  * 切换模式：tab（在专辑/歌曲之间切换）
+  * 播放音乐：x 或者 Enter
+  * 暂停音乐：c
+
 ## MPV 播放器
 
 * 应用中心安装
