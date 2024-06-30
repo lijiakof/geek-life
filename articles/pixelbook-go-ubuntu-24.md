@@ -165,6 +165,7 @@ Keywords=Audio;Song;MP3;CD;Podcast;MTP;iPod;Playlist;Last.fm;UPnP;DLNA;Radio;
 * 命令安装
   * `sudo apt install cmus`
 * 常用命令
+  * 运行软件：cmus
   * 添加音乐：:a /your/music/path
   * 切换模式：tab（在专辑/歌曲之间切换）
   * 播放音乐：x 或者 Enter
