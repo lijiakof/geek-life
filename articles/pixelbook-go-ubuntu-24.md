@@ -203,8 +203,12 @@ Icon=/opt/clash-for-windows-bin/clash-icon.png
 Terminal=false
 StartupNotify=true
 Type=Application
+StartupWMClass=Clash for Windows
 ```
 
 # 声卡问题
 
 非常感谢 GitHub 的 Geeker，这位叫做 WeirdTreeThing 的解决方案，完美解决 Chromebook 安装 Linux 的声卡问题，再次感恩。 https://github.com/WeirdTreeThing/chromebook-linux-audio
+
+TODO：
+另外，由于
