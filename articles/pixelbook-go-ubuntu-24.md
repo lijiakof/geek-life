@@ -188,6 +188,8 @@ Keywords=Audio;Song;MP3;CD;Podcast;MTP;iPod;Playlist;Last.fm;UPnP;DLNA;Radio;
 
 * 进入应用程序文件夹 `cd /usr/share/applications/`
 * 创建应用桌面文件 `your_app.desktop` ,文件内容如下
+  * 程序图标：Icon=
+  * Dock 图标：StartupWMClass=
 * 设置权限 `sudo chmod 744 your_app.desktop`
 * 重启系统
 
