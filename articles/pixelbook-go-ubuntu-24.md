@@ -214,3 +214,10 @@ StartupWMClass=Clash for Windows
 
 TODO：
 另外，由于
+
+# 其它
+
+## flac 转 mp3
+
+* find -name "*.flac" -exec ffmpeg -i {} -acodec libmp3lame -ab 128k {}.mp3 \;
+* rename 's/\.flac//' *.mp3
