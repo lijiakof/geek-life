@@ -181,6 +181,16 @@ Keywords=Audio;Song;MP3;CD;Podcast;MTP;iPod;Playlist;Last.fm;UPnP;DLNA;Radio;
   * 下载地址：https://etcher.balena.io/
   * 命令安装：`sudo dpkg -i ./balena-etcher_1.19.21_amd64.deb`
 
+## 下载工具 aria2
+* 命令安装
+  * `sudo apt install aria2`
+* 常用命令
+  * 普通下载：`aria2 https://xx.com/abc.iso`
+  * 分段下载：`aria2 -s 2 https://xx.com/abc.iso`
+  * 断点续传：`aria2 -c https://xx.com/abc.iso`
+  * BT下载：`aria2 -o gutsy.torrent https://xx.com/abc.iso.torrent`
+  * 磁力下载：`aria2 'magnet:?xt=xxxxx'`
+
 
 # 自定义应用启动图标
 
