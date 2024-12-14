@@ -161,3 +161,10 @@
 | xx | Guardian Heroes | ACT | | |
 | xx | Zero Team 2000 | ACT | | |
 | xx | Sengoku | ACT | | |
+
+## 游戏机盒子
+
+* GB
+  * 内村：
+    * 外：180mm×122mm×45mm
+    * 内：148mm×90mm×32mm

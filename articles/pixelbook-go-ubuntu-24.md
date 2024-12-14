@@ -185,11 +185,11 @@ Keywords=Audio;Song;MP3;CD;Podcast;MTP;iPod;Playlist;Last.fm;UPnP;DLNA;Radio;
 * 命令安装
   * `sudo apt install aria2`
 * 常用命令
-  * 普通下载：`aria2 https://xx.com/abc.iso`
-  * 分段下载：`aria2 -s 2 https://xx.com/abc.iso`
-  * 断点续传：`aria2 -c https://xx.com/abc.iso`
-  * BT下载：`aria2 -o gutsy.torrent https://xx.com/abc.iso.torrent`
-  * 磁力下载：`aria2 'magnet:?xt=xxxxx'`
+  * 普通下载：`aria2c https://xx.com/abc.iso`
+  * 分段下载：`aria2c -s 2 https://xx.com/abc.iso`
+  * 断点续传：`aria2c -c https://xx.com/abc.iso`
+  * BT下载：`aria2c -o gutsy.torrent https://xx.com/abc.iso.torrent`
+  * 磁力下载：`aria2c 'magnet:?xt=xxxxx'`
 
 
 # 自定义应用启动图标
