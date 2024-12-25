@@ -17,7 +17,10 @@
 # 系统设置
 
 * gnome-shell-extensions
+  * sudo apt update
+  * sudo apt install gnome-shell-extensions
 * gnome-tweaks
+  * sudo apt install gnome-tweaks
 
 TODO:
 
