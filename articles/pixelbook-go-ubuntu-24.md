@@ -194,6 +194,11 @@ Keywords=Audio;Song;MP3;CD;Podcast;MTP;iPod;Playlist;Last.fm;UPnP;DLNA;Radio;
   * BT下载：`aria2c -o gutsy.torrent https://xx.com/abc.iso.torrent`
   * 磁力下载：`aria2c 'magnet:?xt=xxxxx'`
 
+## 解压工具 unrar
+* 命令安装
+* 常用命令
+  * `unrar x -p{pwd} ./file.rar`
+
 
 # 自定义应用启动图标
 
