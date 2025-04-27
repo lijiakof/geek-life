@@ -194,6 +194,9 @@ Keywords=Audio;Song;MP3;CD;Podcast;MTP;iPod;Playlist;Last.fm;UPnP;DLNA;Radio;
   * BT下载：`aria2c -o gutsy.torrent https://xx.com/abc.iso.torrent`
   * 磁力下载：`aria2c 'magnet:?xt=xxxxx'`
 
+
+  aria2c -s 4 'magnet:?xt=urn:btih:U6DKVRQNKPHFU7YDY3LYA3RALOS6YWFR&dn=%5B%E9%98%B3%E5%85%89%E7%94%B5%E5%BD%B1-www.dygod.org%5D%E9%B1%BF%E9%B1%BC%E6%B8%B8%E6%88%8F%E7%AC%AC%E4%BA%8C%E5%AD%A3-01.mp4&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&xl=1072171961'
+
 ## 解压工具 unrar
 * 命令安装
 * 常用命令
